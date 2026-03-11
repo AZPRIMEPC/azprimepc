@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AZ Prime PC</title>
+</head>
+
+<body style="background:#111;color:white;font-family:Arial;text-align:center">
+
+<h1>AZ PRIME PC</h1>
+<p>Custom Built Desktop Computers</p>
+
+<h2>Current Builds</h2>
+
+<p>RGB Ryzen Cube Build</p>
+<p>Ryzen 5 5500GT</p>
+<p>32GB RGB RAM</p>
+<p>1TB NVMe</p>
+
+<br>
+
+<p>Contact: arizonaprimepc@gmail.com</p>
+
+</body>
+</html>
