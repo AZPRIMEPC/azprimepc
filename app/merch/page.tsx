@@ -8,7 +8,7 @@ export default function MerchPage() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
   const [screen, setScreen] = useState({ width: 1000, height: 1000 });
 
-  // safe window size (client only)
+  // screen size
   useEffect(() => {
     const updateSize = () => {
       setScreen({
@@ -16,7 +16,6 @@ export default function MerchPage() {
         height: window.innerHeight,
       });
     };
-
     updateSize();
     window.addEventListener("resize", updateSize);
     return () => window.removeEventListener("resize", updateSize);
@@ -27,7 +26,6 @@ export default function MerchPage() {
     const handle = (e: MouseEvent) => {
       setMouse({ x: e.clientX, y: e.clientY });
     };
-
     window.addEventListener("mousemove", handle);
     return () => window.removeEventListener("mousemove", handle);
   }, []);
@@ -68,79 +66,93 @@ export default function MerchPage() {
   }, [vel, mouse, screen]);
 
   const handleCatch = () => {
-    alert("🎉 YOU CAUGHT IT! DM me for a free sticker 😂");
+    alert("🎉 YOU CAUGHT IT! DM me for free merch 😂");
   };
 
   const scale = 0.6 + (pos.y / screen.height) * 0.8;
 
   return (
-    <div
-      className="min-h-screen text-white p-6"
-      style={{
-        background:
-          "radial-gradient(circle at center, #ff00ff, #000000)",
-      }}
-    >
-      {/* fake marquee */}
-      <div className="overflow-hidden whitespace-nowrap text-xl font-bold text-yellow-300">
-        <div className="inline-block animate-marquee">
-          🔥 AZPRIMEPC MERCH 🔥 LIMITED DROP 🔥 BUILT NOT BOUGHT 🔥
+    <div className="min-h-screen bg-[#e5e5e5] text-black font-sans">
+
+      {/* TOP BAR */}
+      <div className="bg-[#003399] text-white p-2 text-sm flex justify-between">
+        <span>AZPrimePC</span>
+        <span>Home | Merch | Builds</span>
+      </div>
+
+      {/* NAV */}
+      <div className="bg-[#3366cc] text-white p-2 text-sm">
+        Home | Browse | Builds | Merch | Friends
+      </div>
+
+      {/* CONTENT */}
+      <div className="max-w-5xl mx-auto mt-4 flex gap-4">
+
+        {/* LEFT SIDEBAR */}
+        <div className="w-1/3 bg-[#d6e0f5] border border-gray-400 p-3">
+          <h2 className="font-bold">AZPrimePC</h2>
+
+          <img src="/logo.png" className="w-full mt-2 border" />
+
+          <p className="text-sm mt-2">
+            💻 Custom PC Builder <br />
+            🎵 Now Playing: Dial-Up Tone <br />
+            😎 Mood: Overclocked
+          </p>
+
+          <div className="mt-4 text-sm">
+            <p>📍 Arizona</p>
+            <p>🕒 Last Login: Today</p>
+          </div>
+
+          <div className="mt-4 border-t pt-2 text-sm">
+            <p><b>Top Friends</b></p>
+            <p>RTX 4090</p>
+            <p>RX 6900 XT</p>
+            <p>DDR5 RAM</p>
+          </div>
+        </div>
+
+        {/* RIGHT CONTENT */}
+        <div className="w-2/3">
+
+          {/* ANNOUNCEMENT */}
+          <div className="border border-gray-400 bg-white p-4 mb-4 text-center">
+            <b>🔥 AZPRIMEPC MERCH IS LIVE 🔥</b>
+          </div>
+
+          {/* PRODUCTS */}
+          <div className="bg-white border border-gray-400 p-4">
+            <h2 className="font-bold mb-3">Merch Drops</h2>
+
+            <div className="border-t pt-3">
+              <p><b>+10 FPS Sticker</b></p>
+              <p className="text-sm">Adds zero FPS but looks fast.</p>
+              <button className="mt-2 bg-blue-500 text-white px-3 py-1">
+                Buy
+              </button>
+            </div>
+
+            <div className="border-t pt-3 mt-3">
+              <p><b>3D Printed Logo</b></p>
+              <p className="text-sm">Flex on absolutely nobody.</p>
+              <button className="mt-2 bg-blue-500 text-white px-3 py-1">
+                Buy
+              </button>
+            </div>
+          </div>
+
+          {/* MARQUEE */}
+          <div className="overflow-hidden whitespace-nowrap text-xl font-bold text-yellow-600 mt-6">
+            <div className="inline-block animate-marquee">
+              🔥 LIMITED DROP 🔥 BUILT NOT BOUGHT 🔥 LIMITED DROP 🔥
+            </div>
+          </div>
+
         </div>
       </div>
 
-      {/* header */}
-      <h1 className="text-4xl font-bold text-center mt-6 animate-pulse">
-        🛒 Dumb Stuff We Made
-      </h1>
-
-      {/* products */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-        <div className="border-4 border-pink-500 p-4 bg-black/60">
-          <h2 className="text-xl">+10 FPS Sticker</h2>
-          <p className="text-sm">
-            Scientifically proven to do nothing.
-          </p>
-          <a
-            href="#"
-            className="block mt-4 bg-yellow-400 text-black p-2 text-center animate-pulse"
-          >
-            Buy ($5)
-          </a>
-        </div>
-
-        <div className="border-4 border-green-400 p-4 bg-black/60">
-          <h2 className="text-xl">3D Printed Logo Flex</h2>
-          <p className="text-sm">
-            Impress absolutely nobody but yourself.
-          </p>
-          <a
-            href="#"
-            className="block mt-4 bg-cyan-400 text-black p-2 text-center animate-pulse"
-          >
-            Buy ($20)
-          </a>
-        </div>
-
-        <div className="border-4 border-purple-400 p-4 bg-black/60">
-          <h2 className="text-xl">Cable Mgmt Optional Pack</h2>
-          <p className="text-sm">
-            For the brave.
-          </p>
-          <a
-            href="#"
-            className="block mt-4 bg-pink-400 text-black p-2 text-center animate-pulse"
-          >
-            Buy ($8)
-          </a>
-        </div>
-      </div>
-
-      {/* visitor counter lol */}
-      <div className="text-center mt-10 text-green-400 font-mono">
-        Visitors: 0001337
-      </div>
-
-      {/* bouncing logo */}
+      {/* FLOATING LOGO GAME */}
       <img
         src="/logo.png"
         onClick={handleCatch}
