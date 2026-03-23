@@ -64,9 +64,11 @@ export default function MerchPage() {
       }}
     >
       {/* marquee */}
-      <marquee className="text-xl font-bold text-yellow-300">
+      <div className="overflow-hidden whitespace-nowrap text-xl font-bold text-yellow-300">
+  <div className="inline-block animate-marquee">
         🔥 AZPRIMEPC MERCH 🔥 LIMITED DROP 🔥 BUILT NOT BOUGHT 🔥
-      </marquee>
+       </div>
+   </div>
 
       {/* header */}
       <h1 className="text-4xl font-bold text-center mt-6 animate-pulse">
