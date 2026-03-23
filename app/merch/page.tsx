@@ -89,12 +89,19 @@ export default function MerchPage() {
       <div className="max-w-5xl mx-auto mt-4 bg-white border border-gray-400">
 
         <div className="flex">
+          <div className="text-center text-xs text-gray-600 mt-6">
+  © 2006 AZPrimePC | Best viewed on Internet Explorer
+</div>
 
           {/* LEFT PROFILE */}
           <div className="w-1/3 bg-[#d6e0f5] border-r border-gray-400 p-3">
             <h2 className="font-bold">AZPrimePC</h2>
 
             <img src="/logo.png" className="w-full mt-2 border" />
+
+            <p className="text-blue-700 underline text-sm mt-2 cursor-pointer">
+  View My: Pics | Videos
+</p>
 
             <p className="text-sm mt-2">
               💻 Custom PC Builder <br />
@@ -113,7 +120,16 @@ export default function MerchPage() {
               <p>RX 6900 XT</p>
               <p>DDR5 RAM</p>
             </div>
-          </div>
+            <div className="mt-4 border-t pt-2 text-sm">
+    <p><b>Contacting AZPrimePC</b></p>
+    <div className="mt-2 space-y-1 text-blue-700 underline cursor-pointer">
+      <p>📩 Send Message</p>
+      <p>➕ Add Friend</p>
+      <p>⭐ Add to Favorites</p>
+      <p>🚫 Block User</p>
+    </div>
+  </div>
+</div>
 
           {/* RIGHT CONTENT */}
           <div className="w-2/3 p-4">
