@@ -85,6 +85,7 @@ export default function StealthPerformance() {
             <p><span className="text-white">Cooler:</span> Thermalright AXP90 X36 Low Profile CPU Cooler</p>
             <p><span className="text-white">Case:</span> JoyJom Micro ATX</p>
             <p><span className="text-white">Power Supply:</span> MSI MAG A650BE 650W 80+ Bronze</p>
+            <p><span className="text-white">Display:</span> TURZX 8.8" Smart Monitoring Screen (System Stats Display)</p>
           </div>
         </div>
 
