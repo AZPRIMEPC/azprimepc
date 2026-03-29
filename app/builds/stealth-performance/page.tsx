@@ -33,7 +33,7 @@ export default function StealthPerformance() {
 
           {/* 🔥 FEATURE CALLOUT */}
           <p className="text-gray-300 mt-4 max-w-xl">
-            Includes a built-in 8.8" smart display showing real-time system stats for a clean, high-end aesthetic.
+            Includes a 8.8" smart display showing real-time system stats for a clean, high-end aesthetic.
           </p>
 
           {/* BUTTON */}
@@ -48,12 +48,22 @@ export default function StealthPerformance() {
 
       {/* SECOND IMAGE (fixed + smaller) */}
       <section className="max-w-6xl mx-auto px-6 pb-16">
-        <img
-          src="/images/stealth-performance-3.jpg"
-          alt="Stealth Performance Interior"
-          className="rounded-xl w-full max-w-4xl mx-auto"
-        />
-      </section>
+  <div className="grid md:grid-cols-2 gap-6">
+
+    <img
+      src="/images/stealth-performance-2.png"
+      alt="Stealth Performance Display"
+      className="rounded-xl w-full max-w-md mx-auto"
+    />
+
+    <img
+      src="/images/stealth-performance-3.jpg"
+      alt="Stealth Performance Interior"
+      className="rounded-xl w-full max-w-md mx-auto"
+    />
+
+  </div>
+</section>
 
       {/* SPECS */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
