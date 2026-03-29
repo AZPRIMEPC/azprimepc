@@ -79,7 +79,7 @@ export default function Home() {
           {[
             {
               title: "Stealth Performance",
-              price: "$899+",
+              price: "$1,199",
               desc: "Balanced performance for gaming and productivity with clean airflow and cable management.",
             },
             {
@@ -97,6 +97,18 @@ export default function Home() {
               key={i}
               className="border border-gray-800 rounded-xl p-6 hover:border-white hover:-translate-y-1 transition"
             >
+
+              {/* IMAGE (only for first card) */}
+              {i === 0 && (
+                <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                  <img
+                    src="/images/stealth-performance.jpg"
+                    alt="Stealth Performance Build"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
+
               <h3 className="text-lg font-semibold">{b.title}</h3>
               <p className="text-gray-400 mt-1">From {b.price}</p>
               <p className="text-gray-500 mt-4">{b.desc}</p>
