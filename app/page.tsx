@@ -1,7 +1,7 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-black text-white">
-
       {/* ================= NAVBAR ================= */}
       <header className="sticky top-0 z-50 border-b border-gray-800 bg-black/80 backdrop-blur">
         <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
@@ -66,64 +66,66 @@ export default function Home() {
         </p>
       </section>
 
-      {/* ================= BUILDS ================= */}
-      <section id="builds" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
-        <p className="text-xs tracking-[0.3em] text-gray-400">FEATURED BUILDS</p>
+{/* ================= FEATURED BUILDS ================= */}
+<section id="builds" className="mx-auto max-w-6xl px-6 py-20">
+  <p className="text-xs tracking-widest text-gray-400 mb-2">
+    FEATURED BUILDS
+  </p>
 
-        <h2 className="mt-4 text-3xl font-semibold">
-          Built for real-world performance.
-        </h2>
+  <h2 className="text-3xl font-semibold mb-10">
+    Built for real-world performance.
+  </h2>
 
-        <div className="mt-10 grid md:grid-cols-3 gap-6">
+  <div className="grid md:grid-cols-3 gap-6">
+    {[
+      {
+        title: "Stealth Performance",
+        price: "$1,199",
+        desc: "Balanced performance for gaming and productivity with clean airflow and cable management.",
+        image: "/images/stealth-performance.jpg",
+        link: "/builds/stealth-performance",
+      },
+      {
+        title: "Prime Creator",
+        price: "$1499+",
+        desc: "High-core performance systems for content creation, editing, and heavy workloads.",
+        image: "",
+        link: "#",
+      },
+      {
+        title: "Compact Power",
+        price: "$1099+",
+        desc: "Small form factor builds with strong thermal planning and premium layout.",
+        image: "",
+        link: "#",
+      },
+    ].map((b, i) => (
+      <Link
+        key={i}
+        href={b.link}
+        className="border border-gray-800 rounded-xl p-6 hover:border-white hover:-translate-y-1 transition block"
+      >
+        {b.image && (
+          <img
+            src={b.image}
+            alt={b.title}
+            className="rounded-lg mb-4"
+          />
+        )}
 
-          {[
-            {
-              title: "Stealth Performance",
-              price: "$1,199",
-              desc: "Balanced performance for gaming and productivity with clean airflow and cable management.",
-            },
-            {
-              title: "Prime Creator",
-              price: "$1499+",
-              desc: "High-core performance systems for content creation, editing, and heavy workloads.",
-            },
-            {
-              title: "Compact Power",
-              price: "$1099+",
-              desc: "Small form factor builds with strong thermal planning and premium layout.",
-            },
-          ].map((b, i) => (
-            <div
-              key={i}
-              className="border border-gray-800 rounded-xl p-6 hover:border-white hover:-translate-y-1 transition"
-            >
+        <h3 className="font-semibold text-lg">{b.title}</h3>
 
-              {/* IMAGE (only for first card) */}
-              {i === 0 && (
-                <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
-                  <img
-                    src="/images/stealth-performance.jpg"
-                    alt="Stealth Performance Build"
-                    className="w-full h-full object-cover"
-                  />
+        <p className="text-gray-400 mt-1">{b.price}</p>
+
+        <p className="text-gray-500 mt-4 text-sm">{b.desc}</p>
+
+        <span className="inline-block mt-4 text-sm underline">
+          View Build →
+                </span>
+               </Link>
+               ))}
                 </div>
-              )}
-
-              <h3 className="text-lg font-semibold">{b.title}</h3>
-              <p className="text-gray-400 mt-1">From {b.price}</p>
-              <p className="text-gray-500 mt-4">{b.desc}</p>
-
-              <a
-                href="#contact"
-                className="inline-block mt-6 underline hover:text-white transition"
-              >
-                Ask About This Build →
-              </a>
-            </div>
-          ))}
-        </div>
-      </section>
-
+          </section>
       {/* ================= SERVICES ================= */}
       <section id="services" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
 
@@ -141,10 +143,11 @@ export default function Home() {
             ["Build-Only Service", "Already have parts? Get a clean, optimized professional assembly."],
             ["PC Upgrades", "Upgrade your system with storage, RAM, GPU, cooling, and more."],
           ].map(([title, desc], i) => (
-            <div
+            <Link
               key={i}
-              className="border border-gray-800 rounded-xl p-6 hover:border-white hover:-translate-y-1 transition"
-            >
+               href={i === 0 ? "/builds/stealth-performance" : "#"}
+               className="border border-gray-800 rounded-xl p-6 hover:border-white hover:-translate-y-1 transition block"
+               >
               <h3 className="font-semibold">{title}</h3>
               <p className="text-gray-500 mt-2">{desc}</p>
             </div>
