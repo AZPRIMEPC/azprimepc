@@ -45,11 +45,17 @@ export default function Home() {
             View Builds
           </a>
 
-          <a href="#contact" className="border border-gray-700 px-6 py-3 rounded-lg">
-            Start Your Build
-          </a>
+          <a
+  href="https://buy.stripe.com/test_dRmbIUbUg03454AccO4ko00"
+  target="_blank"
+  className="border border-gray-700 px-6 py-3 rounded-lg hover:bg-white hover:text-black"
+>
+  Start Your Build
+</a>
         </div>
       </section>
+
+
 
       {/* ================= FEATURED BUILDS ================= */}
       <section id="builds" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
