@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   return (
@@ -167,33 +168,7 @@ export default function Home() {
           Tell us what you need and we’ll help design the right system.
         </p>
 
-        <form className="mt-10 space-y-4">
-
-          <input
-            placeholder="Name"
-            className="w-full bg-black border border-gray-800 p-4 rounded-lg"
-          />
-
-          <input
-            placeholder="Email"
-            className="w-full bg-black border border-gray-800 p-4 rounded-lg"
-          />
-
-          <input
-            placeholder="Budget range"
-            className="w-full bg-black border border-gray-800 p-4 rounded-lg"
-          />
-
-          <textarea
-            placeholder="What are you looking for?"
-            className="w-full bg-black border border-gray-800 p-4 rounded-lg h-32"
-          />
-
-          <button className="w-full bg-white text-black py-4 rounded-lg font-medium">
-            Submit Request
-          </button>
-
-        </form>
+        <ContactForm />
       </section>
 
       {/* ================= FOOTER ================= */}
