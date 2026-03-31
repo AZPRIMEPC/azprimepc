@@ -7,8 +7,8 @@ export async function POST(req: Request) {
     const { name, email, budget, message } = await req.json();
 
     await resend.emails.send({
-      from: "AZPrimePC <onboarding@resend.dev>",
-      to: ["ArizonaPrimePC@g"], // 👈 CHANGE THIS
+      from: 'onboarding@resend.dev',
+to: ['arizonaprimepc@gmail.com'], // 👈 CHANGE THIS
       subject: "New Build Request - AZPrimePC",
       html: `
         <h2>New Build Request</h2>
