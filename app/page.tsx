@@ -45,10 +45,9 @@ export default function Home() {
             View Builds
           </a>
 
-         <a
-  href="https://buy.stripe.com/test_dRmbIUbUg03454AccO4ko00"
-  target="_blank"
-  className="border border-gray-700 px-6 py-3 rounded-lg hover:bg-white hover:text-black"
+          <a href="https://buy.stripe.com/test_dRmbIUbUg03454AccO4ko00"
+             target="_blank"
+              className="border border-gray-700 px-6 py-3 rounded-lg hover:bg-white hover:text-black"
 >
   Start Your Build
 </a>
