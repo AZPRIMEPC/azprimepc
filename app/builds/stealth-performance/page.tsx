@@ -73,7 +73,7 @@ export default function StealthPerformance() {
           <div>
             <p><span className="text-white">CPU:</span> AMD Ryzen 5 5500 (6-Core, 12-Thread)</p>
             <p><span className="text-white">GPU:</span> XFX Radeon RX 6600 XT 8GB</p>
-            <p><span className="text-white">RAM:</span> 16GB Corsair DDR4 (2x8GB)</p>
+            <p><span className="text-white">RAM:</span> 32GB Corsair DDR4 (2x16GB)</p>
             <p><span className="text-white">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
             <p><span className="text-white">Display:</span> TURZX 8.8" Smart Monitoring Screen</p>
           </div>
