@@ -75,7 +75,7 @@ export default function StealthPerformance() {
             <p><span className="text-white">GPU:</span> XFX Radeon RX 6600 XT 8GB</p>
             <p><span className="text-white">RAM:</span> 32GB Corsair DDR4 (2x16GB)</p>
             <p><span className="text-white">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
-            <p><span className="text-white">Display:</span> TURZX 8.8" Smart Monitoring Screen</p>
+            <p><span className="text-white">Display:</span> TURZX 8.8" Smart Monitoring Screen (Customizable) </p>
           </div>
 
           <div>
