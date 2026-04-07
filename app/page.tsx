@@ -177,8 +177,38 @@ export default function Home() {
       </section>
 
       {/* ================= FOOTER ================= */}
-      <footer className="border-t border-gray-800 py-8 text-sm text-gray-500 text-center">
-  © 2026 AZPrimePC. Built Different.
+      <footer className="border-t border-gray-800 py-8 text-sm text-gray-500 text-center space-y-4">
+
+  <div>
+    © 2026 Arizona Prime PC Co., LLC • Custom Performance Systems • Built Different.
+  </div>
+
+  <div className="flex justify-center gap-6">
+    <a
+      href="https://instagram.com/azprimepc"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+        alt="Instagram"
+        className="w-6 h-6 invert hover:opacity-80 transition"
+      />
+    </a>
+
+    <a
+      href="https://www.facebook.com/share/1Git8zJaJ9/?mibextid=wwXIfr"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+        alt="Facebook"
+        className="w-6 h-6 invert hover:opacity-80 transition"
+      />
+    </a>
+  </div>
+
 </footer>
 
     </main>
