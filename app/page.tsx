@@ -178,8 +178,8 @@ export default function Home() {
 
       {/* ================= FOOTER ================= */}
       <footer className="border-t border-gray-800 py-8 text-sm text-gray-500 text-center">
-        © 2026 AZPrimePC. Built Different.
-      </footer>
+  © 2026 AZPrimePC. Built Different.
+</footer>
 
     </main>
   );
