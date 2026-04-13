@@ -62,6 +62,24 @@ export default function StealthPerformance() {
       className="rounded-xl w-full max-w-md mx-auto"
     />
 
+    <img
+      src="/images/IMG_0215.jpeg"
+      alt="AZP #001 additional view"
+      className="rounded-xl w-full max-w-md mx-auto"
+    />
+
+    <img
+      src="/images/IMG_0216.jpeg"
+      alt="AZP #001 additional view"
+      className="rounded-xl w-full max-w-md mx-auto"
+    />
+
+    <img
+      src="/images/IMG_0219.jpeg"
+      alt="AZP #001 additional view"
+      className="rounded-xl w-full max-w-md mx-auto"
+    />
+
   </div>
 </section>
 
