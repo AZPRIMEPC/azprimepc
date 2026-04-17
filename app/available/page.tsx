@@ -3,7 +3,7 @@ export default function AvailablePage() {
     <section className="mx-auto max-w-6xl px-6 py-16">
       <div className="flex items-center justify-between mb-10">
         <div className="text-xl font-semibold">AZPrimePC</div>
-        <a href="/#builds" className="text-sm text-gray-400 hover:text-white">
+        <a href="www.azprimepc.com" className="text-sm text-gray-400 hover:text-white">
           ← Back to AZ Prime
         </a>
       </div>
