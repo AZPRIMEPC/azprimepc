@@ -2,7 +2,15 @@ export default function AvailablePage() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-20">
       <h1 className="text-3xl font-semibold mb-10">Available Now</h1>
-      <p className="text-gray-400">Items currently available from AZ Prime PC.</p>
+
+      <div className="grid md:grid-cols-3 gap-6">
+
+        {<div className="border border-gray-800 rounded-xl p-6 opacity-40">
+            <h3 className="font-semibold">Prime Creator</h3>
+            <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
+          </div>}
+
+      </div>
     </section>
   );
 }
