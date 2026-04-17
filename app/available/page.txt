@@ -1,0 +1,8 @@
+export default function AvailablePage() {
+  return (
+    <section className="mx-auto max-w-6xl px-6 py-20">
+      <h1 className="text-3xl font-semibold mb-10">Available Now</h1>
+      <p className="text-gray-400">Items currently available from AZ Prime PC.</p>
+    </section>
+  );
+}
