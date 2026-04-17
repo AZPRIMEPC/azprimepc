@@ -108,6 +108,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+  <h2 className="text-xl font-semibold mb-6">Also Available</h2>
+
+  <div className="grid md:grid-cols-3 gap-6">
+
+    <a
+      href="/available"
+      className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
+    >
+      <img
+        src="/images/dell_monitor_hero.png"
+        alt="Dell 27 Monitor"
+        className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
+      />
+
+      <h3 className="text-lg font-semibold">27” Dell Monitor</h3>
+
+      <p className="text-gray-400 mt-1">$109</p>
+
+      <p className="text-gray-500 mt-3 text-sm">
+        Clean condition • Adjustable stand • Warranty through 2026
+      </p>
+
+      <span className="inline-block mt-4 text-sm underline">
+        View →
+      </span>
+    </a>
+
+  </div>
+</section>
+
       {/* ================= SERVICES ================= */}
       <section id="services" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
 
