@@ -13,6 +13,7 @@ export default function Home() {
           <nav className="hidden md:flex gap-8 text-sm text-gray-400">
             <a href="#home" className="hover:text-white">Home</a>
             <a href="#builds" className="hover:text-white">Builds</a>
+            <a href="/available" className="hover:text-white">Available</a>
             <a href="#services" className="hover:text-white">Services</a>
             <a href="#why" className="hover:text-white">Why Us</a>
             <a href="#contact" className="hover:text-white">Contact</a>
