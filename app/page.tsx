@@ -103,7 +103,7 @@ export default function Home() {
       </div>
 
       <p className="text-gray-500 mt-4 text-sm">
-        Stealth-focused performance build with optimized airflow, clean cable management, and upgrade-ready design.
+        Stealth-focused performance build featuring precision airflow, clean cable management, synchronized aRGB lighting via NZXT CAM, and an upgrade-ready design.
       </p>
 
       <p className="mt-4 text-blue-300">
