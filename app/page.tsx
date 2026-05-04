@@ -24,7 +24,7 @@ export default function Home() {
     </nav>
 
     <a
-      href="#contact"
+      href="https://buy.stripe.com/cNi7sN3UWc7A3GQ7eV3Ru01"
       className="hidden sm:inline-flex rounded-full bg-white px-4 py-2 text-sm font-medium text-black hover:bg-blue-300 transition"
     >
       Start a Build
