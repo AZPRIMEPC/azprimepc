@@ -67,7 +67,7 @@ export default function Home() {
 
   <div className="grid gap-8 md:grid-cols-3">
     <Link
-      href="/available/stealth-performance"
+  href="/available/system-001"
       className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
     >
       <img
