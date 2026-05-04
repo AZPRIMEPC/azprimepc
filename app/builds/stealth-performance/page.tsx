@@ -16,15 +16,15 @@ export default function StealthPerformance() {
         {/* MAIN IMAGE (smaller now) */}
         <img
           src="/images/stealth-performance.jpg"
-          alt="Stealth Performance Build"
+          alt="Stealth Performance"
           className="rounded-xl w-full max-w-md mx-auto"
         />
 
         {/* TEXT */}
         <div>
-          <h1 className="text-4xl font-bold mb-4">Stealth Performance</h1>
+          <h1 className="text-4xl font-bold mb-4">System #001</h1>
 
-          <p className="text-xl text-gray-300 mb-4">$1,199</p>
+          <p className="text-xl text-gray-300 mb-4">$1,099</p>
 
           <p className="text-gray-400 max-w-xl">
             Compact, efficient, and clean. This build delivers strong 1080p / 1440p gaming performance
@@ -33,7 +33,8 @@ export default function StealthPerformance() {
 
           {/* 🔥 FEATURE CALLOUT */}
           <p className="text-gray-300 mt-4 max-w-xl">
-            Includes a 8.8" smart display showing real-time system stats for a clean, high-end aesthetic.
+            Includes a 8.8" smart display showing real-time system stats for a clean, high-end aesthetic. 
+            Windows 11 Pro Installed with Lifetime Activation Key
           </p>
 
           {/* BUTTON */}
