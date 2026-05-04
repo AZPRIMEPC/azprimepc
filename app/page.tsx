@@ -67,26 +67,26 @@ export default function Home() {
 
   <div className="grid gap-8 md:grid-cols-3">
     <Link
-  href="/available/system-001"
-      className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
-    >
-      <img
-        src="/images/stealth-performance.jpg"
-        alt="Stealth Performance Build"
-        className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-      />
+  href="/builds/stealth-performance"
+  className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
+>
+  <img
+    src="/images/stealth-performance.jpg"
+    alt="Stealth Performance Build"
+    className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
+  />
 
-      <h3 className="text-lg font-semibold">System #001</h3>
-      <p className="text-blue-300 mt-2">$1,099</p>
+  <h3 className="text-lg font-semibold">System #001</h3>
+  <p className="text-blue-300 mt-2">$1,099</p>
 
-      <p className="text-gray-500 mt-3 text-sm">
-        Clean, compact performance build with optimized airflow and integrated display.
-      </p>
+  <p className="text-gray-500 mt-3 text-sm">
+    Clean, compact performance build with optimized airflow and integrated display.
+  </p>
 
-      <span className="inline-block mt-4 text-sm underline">
-        View Build →
-      </span>
-    </Link>
+  <span className="inline-block mt-4 text-sm underline">
+    View Build →
+  </span>
+</Link>
 
     <Link
       href="#"
