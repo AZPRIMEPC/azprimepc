@@ -83,7 +83,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">System #001</h3>
 
-            <p className="text-gray-400 mt-1">$1,199</p>
+            <p className="text-gray-400 mt-1">$1,099</p>
 
             <p className="text-gray-500 mt-3 text-sm">
               Clean, compact performance build with optimized airflow and integrated display.
