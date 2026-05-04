@@ -95,17 +95,27 @@ export default function Home() {
           </Link>
 
           {/* PLACEHOLDER CARDS */}
-          <div className="border border-gray-800 rounded-xl p-6 opacity-40">
-            <h3 className="font-semibold">System #002</h3>
-            <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
-          </div>
+            <div className="mt-4 text-sm text-gray-400 space-y-1">
+    <p><span className="text-gray-300">CPU:</span> Ryzen 7 5700G</p>
+    <p><span className="text-gray-300">Motherboard:</span> ASUS TUF B550-Plus WiFi II</p>
+    <p><span className="text-gray-300">Memory:</span> 32GB (4×8) Corsair Vengeance DDR4</p>
+    <p><span className="text-gray-300">Graphics:</span> Custom-installed GPU (performance tier selectable)</p>
+  </div>
 
-          <div className="border border-gray-800 rounded-xl p-6 opacity-40">
-            <h3 className="font-semibold">System #003</h3>
-            <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
-          </div>
+  <p className="mt-4 text-gray-300 text-sm">
+    Stealth-focused performance build with optimized airflow, clean cable management, and upgrade-ready design.
+  </p>
 
-        </div>
+  <p className="mt-4 text-white font-medium">
+    Starting at: $XXX
+  </p>
+</div>
+
+{/* SYSTEM #003 */}
+<div className="border border-gray-800 rounded-xl p-6 opacity-40">
+  <h3 className="font-semibold">System #003</h3>
+  <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
+</div>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-20">
