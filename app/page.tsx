@@ -6,11 +6,11 @@ export default function Home() {
     <main className="bg-black text-white">
 
       {/* ================= NAVBAR ================= */}
-<header className="sticky top-0 z-50 border-b border-gray-800 bg-black/80 backdrop-blur-xl">
+<header className="sticky top-0 z-50 border-b border-blue-900/40 bg-black/70 backdrop-blur-xl shadow-[0_0_30px_rgba(59,130,246,0.12)]">
   <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-    <Link href="/" className="font-semibold tracking-wide hover:text-blue-300 transition">
-      AZPrimePC
-    </Link>
+    <Link href="/" className="font-bold tracking-wide text-white hover:text-blue-300 transition">
+  <span className="text-blue-300">AZ</span>PrimePC
+</Link>
 
     <nav className="hidden md:flex items-center gap-8 text-sm text-gray-400">
       <a href="#home" className="hover:text-white transition">Home</a>
