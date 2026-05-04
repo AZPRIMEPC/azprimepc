@@ -81,7 +81,7 @@ export default function Home() {
               className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
             />
 
-            <h3 className="text-lg font-semibold">Stealth Performance</h3>
+            <h3 className="text-lg font-semibold">System #001</h3>
 
             <p className="text-gray-400 mt-1">$1,199</p>
 
@@ -96,12 +96,12 @@ export default function Home() {
 
           {/* PLACEHOLDER CARDS */}
           <div className="border border-gray-800 rounded-xl p-6 opacity-40">
-            <h3 className="font-semibold">Prime Creator</h3>
+            <h3 className="font-semibold">System #002</h3>
             <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
           </div>
 
           <div className="border border-gray-800 rounded-xl p-6 opacity-40">
-            <h3 className="font-semibold">Compact Power</h3>
+            <h3 className="font-semibold">System #003</h3>
             <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
           </div>
 
