@@ -89,9 +89,9 @@ export default function Home() {
 </Link>
 
     <Link
-      href="#"
-      className="border border-gray-800 rounded-xl p-6 opacity-80 hover:opacity-100 hover:border-white hover:-translate-y-1 transition block"
-    >
+  href="/builds/system-002"
+  className="border border-gray-800 rounded-xl p-6 opacity-80 hover:opacity-100 hover:border-white hover:-translate-y-1 transition block"
+>
       <h3 className="text-lg font-semibold">System #002</h3>
       <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
 
