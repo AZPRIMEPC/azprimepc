@@ -58,74 +58,65 @@ export default function Home() {
 
 
       {/* ================= FEATURED BUILDS ================= */}
-      <section id="builds" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
+      <section className="mx-auto max-w-6xl px-6 py-20">
+  <p className="text-xs uppercase tracking-[0.25em] text-gray-500 mb-2">
+    Featured Builds
+  </p>
 
-        <p className="text-xs tracking-widest text-gray-500 mb-2">
-          FEATURED BUILDS
-        </p>
+  <h2 className="text-3xl font-bold mb-10">Available Now</h2>
 
-        <h2 className="text-3xl font-semibold mb-10">
-          Available Now
-        </h2>
+  <div className="grid gap-8 md:grid-cols-3">
+    <Link
+      href="/available/stealth-performance"
+      className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
+    >
+      <img
+        src="/images/stealth-performance.jpg"
+        alt="Stealth Performance Build"
+        className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
+      />
 
-        <div className="grid md:grid-cols-3 gap-6">
+      <h3 className="text-lg font-semibold">System #001</h3>
+      <p className="text-blue-300 mt-2">$1,099</p>
 
-          {/* MAIN BUILD */}
-          <Link
-            href="/builds/stealth-performance"
-            className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
-          >
-            <img
-              src="/images/stealth-performance.jpg"
-              alt="Stealth Performance Build"
-              className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-            />
+      <p className="text-gray-500 mt-3 text-sm">
+        Clean, compact performance build with optimized airflow and integrated display.
+      </p>
 
-            <h3 className="text-lg font-semibold">System #001</h3>
+      <span className="inline-block mt-4 text-sm underline">
+        View Build →
+      </span>
+    </Link>
 
-            <p className="text-gray-400 mt-1">$1,099</p>
+    <Link
+      href="#"
+      className="border border-gray-800 rounded-xl p-6 opacity-80 hover:opacity-100 hover:border-white hover:-translate-y-1 transition block"
+    >
+      <h3 className="text-lg font-semibold">System #002</h3>
+      <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
 
-            <p className="text-gray-500 mt-3 text-sm">
-              Clean, compact performance build with optimized airflow and integrated display.
-            </p>
+      <div className="mt-4 text-sm text-gray-400 space-y-1">
+        <p><span className="text-gray-300">CPU:</span> Ryzen 7 5700G</p>
+        <p><span className="text-gray-300">Motherboard:</span> ASUS TUF B550-Plus WiFi II</p>
+        <p><span className="text-gray-300">Memory:</span> 32GB (4x8) Corsair Vengeance DDR4</p>
+        <p><span className="text-gray-300">Graphics:</span> Custom-installed GPU</p>
+      </div>
 
-            <span className="inline-block mt-4 text-sm underline">
-              View Build →
-            </span>
-          </Link>
+      <p className="text-gray-500 mt-4 text-sm">
+        Stealth-focused performance build with optimized airflow, clean cable management, and upgrade-ready design.
+      </p>
 
-          {/* PLACEHOLDER CARDS */}
+      <p className="mt-4 text-blue-300">
+        Starting at: $XXX
+      </p>
+    </Link>
 
-{/* SYSTEM #002 */}
-<Link
-  href="#"
-  className="border border-gray-800 rounded-xl p-6 opacity-80 hover:opacity-100 hover:translate-y-1 transition block"
->
-  <h3 className="font-semibold">System #002</h3>
-  <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
-
-  <div className="mt-4 text-sm text-gray-400 space-y-1">
-    <p><span className="text-gray-300">CPU:</span> Ryzen 7 5700G</p>
-    <p><span className="text-gray-300">Motherboard:</span> ASUS TUF B550-Plus WiFi II</p>
-    <p><span className="text-gray-300">Memory:</span> 32GB (4×8) Corsair Vengeance DDR4</p>
-    <p><span className="text-gray-300">Graphics:</span> Custom-installed GPU</p>
+    <div className="border border-gray-800 rounded-xl p-6 opacity-40">
+      <h3 className="text-lg font-semibold">System #003</h3>
+      <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
+    </div>
   </div>
-
-  <p className="text-gray-500 mt-4 text-sm">
-    Stealth-focused performance build with optimized airflow, clean cable management, and upgrade-ready design.
-  </p>
-
-  <p className="mt-4 text-blue-300">
-    Starting at: $XXX
-  </p>
-</Link>
-
-{/* SYSTEM #003 */}
-<div className="border border-gray-800 rounded-xl p-6 opacity-40">
-  <h3 className="font-semibold">System #003</h3>
-  <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
-</div>
-      </section>
+</section>
 
       <section className="mx-auto max-w-6xl px-6 pb-20">
   <h2 className="text-xl font-semibold mb-6">Also Available</h2>
