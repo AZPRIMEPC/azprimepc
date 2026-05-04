@@ -33,7 +33,7 @@ export default function StealthPerformance() {
 
           {/* 🔥 FEATURE CALLOUT */}
           <p className="text-gray-300 mt-4 max-w-xl">
-            Includes a 8.8" smart display showing real-time system stats for a clean, high-end aesthetic. 
+            Includes a 8.8" smart display showing real-time system stats for a clean, high-end aesthetic.(br />
             Windows 11 Pro Installed with Lifetime Activation Key
           </p>
 
