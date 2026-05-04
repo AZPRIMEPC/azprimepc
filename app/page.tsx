@@ -6,24 +6,31 @@ export default function Home() {
     <main className="bg-black text-white">
 
       {/* ================= NAVBAR ================= */}
-      <header className="sticky top-0 z-50 border-b border-gray-800 bg-black/80 backdrop-blur">
-        <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-          <div className="font-semibold tracking-wide">AZPrimePC</div>
+<header className="sticky top-0 z-50 border-b border-gray-800 bg-black/80 backdrop-blur-xl">
+  <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+    <Link href="/" className="font-semibold tracking-wide hover:text-blue-300 transition">
+      AZPrimePC
+    </Link>
 
-          <nav className="hidden md:flex gap-8 text-sm text-gray-400">
-            <a href="#home" className="hover:text-white">Home</a>
-            <a href="#builds" className="hover:text-white">Builds</a>
-            <a href="/available" className="hover:text-white">Available</a>
-            <a href="#services" className="hover:text-white">Services</a>
-            <a href="#why" className="hover:text-white">Why Us</a>
-            <a href="#contact" className="hover:text-white">Contact</a>
-          </nav>
+    <nav className="hidden md:flex items-center gap-8 text-sm text-gray-400">
+      <a href="#home" className="hover:text-white transition">Home</a>
+      <a href="#builds" className="hover:text-white transition">Builds</a>
+      <Link href="/available" className="hover:text-white transition">
+        Available
+      </Link>
+      <a href="#services" className="hover:text-white transition">Services</a>
+      <a href="#why" className="hover:text-white transition">Why Us</a>
+      <a href="#contact" className="hover:text-white transition">Contact</a>
+    </nav>
 
-          <a href="#contact" className="bg-white text-black px-4 py-2 rounded-full text-sm">
-            Get a Quote
-          </a>
-        </div>
-      </header>
+    <a
+      href="#contact"
+      className="hidden sm:inline-flex rounded-full bg-white px-4 py-2 text-sm font-medium text-black hover:bg-blue-300 transition"
+    >
+      Start a Build
+    </a>
+  </div>
+</header>
 
       {/* ================= HERO ================= */}
       <section id="home" className="mx-auto max-w-6xl px-6 py-24">
