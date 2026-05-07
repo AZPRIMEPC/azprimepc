@@ -44,7 +44,7 @@ export default function System002() {
           <div className="text-sm text-gray-400 space-y-2">
             <p><span className="text-gray-300">CPU:</span> Ryzen 7 5700G</p>
             <p><span className="text-gray-300">Motherboard:</span> ASUS TUF B550-Plus WiFi II</p>
-            <p><span className="text-gray-300">Storage:</span> 1TB WD Blue SN5000 NVMe SSD</p>
+            <p><span className="text-gray-300">Storage:</span> Dual 1TB WD Blue SN5000 NVMe SSDs (2TB Total)</p>
             <p><span className="text-gray-300">Memory:</span> 32GB (4x8) Corsair Vengeance DDR4</p>
             <p><span className="text-gray-300">Cooling:</span> Thermalright Phantom Spirit 120 Digital EVO</p>
             <p><span className="text-gray-300">Case:</span> NZXT H5 Flow RGB</p>
