@@ -21,8 +21,9 @@ export default function System002() {
       </div>
 
       <p className="text-gray-400 max-w-2xl mb-10">
-       System #002 is a clean, performance-focused build assembled with precision airflow,
-organized cable management, synchronized NZXT aRGB lighting, and an upgrade-ready design built to evolve with the user.
+        System #002 is a clean, performance-focused build assembled with precision airflow,
+        organized cable management, synchronized NZXT aRGB lighting, and an upgrade-ready
+        design built to evolve with the user.
       </p>
 
       <div className="mb-10">
@@ -102,21 +103,21 @@ organized cable management, synchronized NZXT aRGB lighting, and an upgrade-read
           </div>
         </div>
 
-        <p className="text-sm text-gray-400 leading-6">
-  System #002 is built around clean presentation, strong airflow, synchronized NZXT RGB lighting,
-  and premium component visibility. The H5 Flow RGB case, NZXT single-frame fans, and Thermalright
-  digital cooler give the system a high-end look while keeping the build practical, serviceable,
-  and upgrade-ready.
-</p>
+        <div className="border border-gray-800 rounded-xl p-6">
+          <h2 className="text-xl font-semibold mb-4">Build Direction</h2>
 
-<p className="mt-4 text-sm text-blue-300 leading-6">
-  Optional GPU upgrade available. We actively source great-value graphics cards through Marketplace,
-  open-box, and retail deals to maximize performance per dollar.
-</p>
-            System #002 is built around clean presentation, strong airflow, synchronized NZXT RGB lighting,
-            and premium component visibility. The H5 Flow RGB case, NZXT single-frame fans, and Thermalright
-            digital cooler give the system a high-end look while keeping the build practical, serviceable,
-            and upgrade-ready.
+          <p className="text-sm text-gray-400 leading-6">
+            System #002 is built around clean presentation, strong airflow,
+            synchronized NZXT RGB lighting, and premium component visibility.
+            The H5 Flow RGB case, NZXT single-frame fans, and Thermalright
+            digital cooler give the system a high-end look while keeping the
+            build practical, serviceable, and upgrade-ready.
+          </p>
+
+          <p className="mt-4 text-sm text-blue-300 leading-6">
+            Optional GPU upgrade available. We actively source great-value
+            graphics cards through Marketplace, open-box, and retail deals to
+            maximize performance per dollar.
           </p>
 
           <div className="mt-6 border-t border-gray-800 pt-5">
