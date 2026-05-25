@@ -174,7 +174,15 @@ export default function Home() {
             />
 
             <h3 className="text-lg font-semibold">27” Dell Monitor</h3>
-            <p className="text-gray-400 mt-1">$109</p>
+
+<div className="mt-1 flex items-center gap-3">
+  <p className="text-gray-500 line-through">$109</p>
+  <p className="text-red-400 font-semibold">$79.99</p>
+</div>
+
+<p className="text-xs uppercase tracking-wider text-red-300 mt-2">
+  Memorial Day Sale
+</p>
 
             <p className="text-gray-500 mt-3 text-sm">
               Clean condition • Adjustable stand • Warranty through 2026
