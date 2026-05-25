@@ -1,7 +1,6 @@
 export default function StealthPerformance() {
   return (
     <main className="bg-black text-white min-h-screen">
-
       {/* HEADER */}
       <div className="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
         <div className="font-semibold tracking-wide">AZPrimePC</div>
@@ -12,32 +11,40 @@ export default function StealthPerformance() {
 
       {/* HERO SECTION */}
       <section className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-center">
-
-        {/* MAIN IMAGE (smaller now) */}
         <img
-          src="/images/stealth-performance.jpg"
-          alt="Stealth Performance"
-          className="rounded-xl w-full max-w-md mx-auto"
+          src="/images/SYS001SHOPBG-1.PNG.png"
+          alt="System #001 AZ Prime PC workshop hero photo"
+          className="rounded-xl w-full border border-gray-800 shadow-[0_0_60px_rgba(168,85,247,0.18)]"
         />
 
-        {/* TEXT */}
         <div>
+          <p className="text-xs uppercase tracking-[0.25em] text-red-400 mb-2">
+            Memorial Day Sale
+          </p>
+
           <h1 className="text-4xl font-bold mb-4">System #001</h1>
 
-          <p className="text-xl text-gray-300 mb-4">$1,099</p>
+          <div className="mb-4 flex items-center gap-4">
+            <p className="text-xl text-gray-500 line-through">$1,099</p>
+            <p className="text-3xl font-bold text-red-400">$999</p>
+          </div>
+
+          <p className="text-xs uppercase tracking-wider text-red-300 mb-6">
+            Limited-time pricing through Friday 5/29
+          </p>
 
           <p className="text-gray-400 max-w-xl">
             Compact, efficient, and clean. This build delivers strong 1080p / 1440p gaming performance
             with excellent thermals and a minimal footprint — perfect for desks that need power without bulk.
           </p>
 
-          {/* 🔥 FEATURE CALLOUT */}
           <p className="text-gray-300 mt-4 max-w-xl">
-            Includes a 8.8" smart display showing real-time system stats for a clean, high-end aesthetic. <br />
-            Windows 11 Pro Installed with Lifetime Activation Key
+            Includes an 8.8&quot; smart display showing real-time system stats for a clean,
+            high-end aesthetic.
+            <br />
+            Windows 11 Pro installed with lifetime activation key.
           </p>
 
-          {/* BUTTON */}
           <a
             href="/#contact"
             className="inline-block mt-6 bg-white text-black px-6 py-3 rounded-full text-sm hover:opacity-80 transition"
@@ -47,61 +54,99 @@ export default function StealthPerformance() {
         </div>
       </section>
 
-      {/* SECOND IMAGE (fixed + smaller) */}
+      {/* SALE CALLOUT */}
+      <section className="max-w-6xl mx-auto px-6 pb-12">
+        <div className="rounded-xl border border-red-900/50 bg-red-950/20 p-5">
+          <p className="text-sm uppercase tracking-[0.2em] text-red-300 mb-2">
+            Memorial Day Sale
+          </p>
+
+          <p className="text-3xl font-bold text-white">$999</p>
+
+          <p className="text-gray-400 text-sm mt-2">
+            Discounted from $1,099 through Friday 5/29.
+          </p>
+        </div>
+      </section>
+
+      {/* IMAGE GALLERY */}
       <section className="max-w-6xl mx-auto px-6 pb-16">
-  <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
+          <img
+            src="/images/SYS001WBG-1.PNG.png"
+            alt="System #001 white background product photo"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
 
-    <img
-      src="/images/stealth-performance-2.png"
-      alt="Stealth Performance Display"
-      className="rounded-xl w-full max-w-md mx-auto"
-    />
+          <img
+            src="/images/SYS001WBG-2.PNG.png"
+            alt="System #001 alternate white background product photo"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
 
-    <img
-      src="/images/stealth-performance-3.jpg"
-      alt="Stealth Performance Interior"
-      className="rounded-xl w-full max-w-md mx-auto"
-    />
+          <img
+            src="/images/SYS001SHOPBG-1.PNG.png"
+            alt="System #001 workshop product photo"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
 
-    <img
-      src="/images/IMG_0215.jpeg"
-      alt="AZP #001 additional view"
-      className="rounded-xl w-full max-w-md mx-auto"
-    />
+          <img
+            src="/images/stealth-performance.jpg"
+            alt="Stealth Performance original hero"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
 
-    <img
-      src="/images/IMG_0216.jpeg"
-      alt="AZP #001 additional view"
-      className="rounded-xl w-full max-w-md mx-auto"
-    />
+          <img
+            src="/images/stealth-performance-2.png"
+            alt="Stealth Performance Display"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
 
-    <img
-      src="/images/IMG_0219.jpeg"
-      alt="AZP #001 additional view"
-      className="rounded-xl w-full max-w-md mx-auto"
-    />
+          <img
+            src="/images/stealth-performance-3.jpg"
+            alt="Stealth Performance Interior"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
 
-  </div>
-</section>
+          <img
+            src="/images/IMG_0215.jpeg"
+            alt="AZP #001 additional view"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
+
+          <img
+            src="/images/IMG_0216.jpeg"
+            alt="AZP #001 additional view"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
+
+          <img
+            src="/images/IMG_0219.jpeg"
+            alt="AZP #001 additional view"
+            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
+          />
+        </div>
+      </section>
 
       {/* SPECS */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <h2 className="text-2xl font-semibold mb-6">Build Specifications</h2>
 
         <div className="grid md:grid-cols-2 gap-6 text-gray-400">
-          <div>
+          <div className="border border-gray-800 rounded-xl p-6">
             <p><span className="text-white">CPU:</span> AMD Ryzen 5 5500 (6-Core, 12-Thread)</p>
             <p><span className="text-white">GPU:</span> XFX Radeon RX 6600 XT 8GB</p>
             <p><span className="text-white">RAM:</span> 32GB Corsair DDR4 (2x16GB)</p>
             <p><span className="text-white">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
-            <p><span className="text-white">Display:</span> WOWNOVA 8.8" Real-Time System Monitoring Display (Plug-and-Play, Customizable) </p>
+            <p><span className="text-white">Display:</span> WOWNOVA 8.8&quot; real-time system monitoring display</p>
           </div>
 
-          <div>
+          <div className="border border-gray-800 rounded-xl p-6">
             <p><span className="text-white">Motherboard:</span> Gigabyte A520I AC (Mini-ITX, WiFi)</p>
             <p><span className="text-white">Cooler:</span> Thermalright AXP90 X36 Low Profile</p>
             <p><span className="text-white">Case:</span> JoyJom Micro ATX</p>
             <p><span className="text-white">Power Supply:</span> MSI MAG A650BE 650W 80+ Bronze</p>
+            <p><span className="text-white">OS:</span> Windows 11 Pro installed with lifetime activation key</p>
           </div>
         </div>
       </section>
@@ -110,7 +155,6 @@ export default function StealthPerformance() {
       <footer className="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
         © 2026 AZPrimePC. Built Different.
       </footer>
-
     </main>
   );
 }
