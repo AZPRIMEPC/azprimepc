@@ -100,7 +100,7 @@ export default function Home() {
 
             <div className="mt-2 flex items-center gap-3">
               <p className="text-gray-500 line-through">$1,099</p>
-              <p className="text-red-400 font-semibold text-xl">$999</p>
+              <p className="text-red-400 font-semibold text-xl">$849</p>
             </div>
 
             <p className="text-xs uppercase tracking-wider text-red-300 mt-2">
@@ -128,7 +128,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">System #002</h3>
 
-            <p className="text-red-400 font-semibold text-xl mt-2">$899</p>
+            <p className="text-red-400 font-semibold text-xl mt-2">$849</p>
 
             <p className="text-xs uppercase tracking-wider text-red-300 mt-2">
               Memorial Day Sale
