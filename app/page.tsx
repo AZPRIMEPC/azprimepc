@@ -31,7 +31,7 @@ export default function Home() {
       <section className="border-b border-red-900/40 bg-gradient-to-r from-red-950/60 via-black to-blue-950/50">
         <div className="mx-auto max-w-6xl px-6 py-3 text-center">
           <p className="text-sm md:text-base font-semibold tracking-wide">
-            Memorial Day Sale • System #001 Now $999 • System #002 Listed at $899
+            Memorial Day Sale • System #001 Now $849 • System #002 Listed at $849
           </p>
           <p className="text-xs text-gray-400 mt-1">
             Limited-time pricing through Friday 5/29.
