@@ -47,7 +47,7 @@ export default function Home() {
             </p>
 
             <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
-              Built Different.
+              Intentional by Design.
             </h1>
 
             <p className="mt-6 text-gray-400 max-w-xl">
