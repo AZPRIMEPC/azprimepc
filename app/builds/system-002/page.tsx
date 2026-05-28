@@ -12,7 +12,7 @@ export default function System002() {
           Limited-Time Pricing Through Friday 5/29
         </p>
 
-        <p className="text-3xl font-bold text-white">$899</p>
+        <p className="text-3xl font-bold text-white">$849</p>
 
         <p className="text-gray-400 text-sm mt-2">
           NZXT H5 Flow RGB build with Ryzen 7 performance, 32GB RAM, 2TB NVMe storage,
@@ -125,7 +125,7 @@ export default function System002() {
               Memorial Day Sale Price
             </p>
 
-            <p className="text-3xl font-bold mt-2">$899</p>
+            <p className="text-3xl font-bold mt-2">$849</p>
 
             <p className="text-gray-500 text-sm mt-2">
               Sale pricing available through Friday 5/29.
