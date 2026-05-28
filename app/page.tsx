@@ -205,7 +205,14 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 gap-6">
           {[
-            ["Custom PC Builds", "Purpose-built systems tailored for gaming, productivity, and content creation. Designed for people who notice details."],
+            [
+  "Custom PC Builds",
+  <>
+    Purpose-built systems tailored for gaming, productivity, and content creation.
+    <br />
+    Designed for people who notice details.
+  </>
+],
             ["Part Sourcing", "Get help choosing high-value, compatible parts."],
             ["Build-Only Service", "Already have parts? Get a clean professional assembly."],
             ["PC Upgrades", "Upgrade storage, RAM, GPU, cooling, and more."],
