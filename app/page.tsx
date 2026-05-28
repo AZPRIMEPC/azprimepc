@@ -46,7 +46,7 @@ export default function Home() {
               MEMORIAL DAY SALE
             </p>
 
-            <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
+            <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
               Intentional by Design.
             </h1>
 
