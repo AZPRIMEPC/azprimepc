@@ -51,8 +51,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-gray-400 max-w-xl">
-              Custom PCs built with intention. Clean layouts, optimized airflow,
-              and performance-focused parts. Sale pricing available this week only.
+              Precision-built systems with optimized airflow, clean cable management, and performance-focused components.
             </p>
 
             <div className="mt-8 flex gap-4">
@@ -206,7 +205,7 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 gap-6">
           {[
-            ["Custom PC Builds", "Purpose-built systems tailored for gaming, productivity, and content creation."],
+            ["Custom PC Builds", "Purpose-built systems tailored for gaming, productivity, and content creation. Designed for people who notice details."],
             ["Part Sourcing", "Get help choosing high-value, compatible parts."],
             ["Build-Only Service", "Already have parts? Get a clean professional assembly."],
             ["PC Upgrades", "Upgrade storage, RAM, GPU, cooling, and more."],
