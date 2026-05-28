@@ -114,9 +114,10 @@ export default function System002() {
             build practical, serviceable, and upgrade-ready.
           </p>
 
-          <p className="mt-4 text-sm text-blue-300 leading-6">
-            Optional GPU upgrade available. We actively source graphics cards through various retailers to maximize performance per dollar.
-          </p>
+         <p className="mt-4 text-sm text-blue-300 leading-6">
+  Optional GPU upgrade available. We actively source graphics cards through
+  various retailers to maximize performance per dollar.
+</p>
 
           <div className="mt-6 border-t border-gray-800 pt-5">
             <p className="text-sm uppercase tracking-[0.2em] text-red-300">
