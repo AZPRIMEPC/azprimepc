@@ -26,7 +26,7 @@ export default function StealthPerformance() {
 
           <div className="mb-4 flex items-center gap-4">
             <p className="text-xl text-gray-500 line-through">$1,099</p>
-            <p className="text-3xl font-bold text-red-400">$999</p>
+            <p className="text-3xl font-bold text-red-400">$849</p>
           </div>
 
           <p className="text-xs uppercase tracking-wider text-red-300 mb-6">
@@ -61,7 +61,7 @@ export default function StealthPerformance() {
             Memorial Day Sale
           </p>
 
-          <p className="text-3xl font-bold text-white">$999</p>
+          <p className="text-3xl font-bold text-white">$849</p>
 
           <p className="text-gray-400 text-sm mt-2">
             Discounted from $1,099 through Friday 5/29.
