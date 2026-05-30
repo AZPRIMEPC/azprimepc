@@ -1,18 +1,18 @@
 export default function System002() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-20">
-      <p className="text-xs uppercase tracking-[0.25em] text-red-400 mb-2">
-        Memorial Day Sale
+      <p className="text-xs uppercase tracking-[0.25em] text-blue-300 mb-2">
+        Available Now
       </p>
 
       <h1 className="text-4xl font-bold mb-4">System #002</h1>
 
-      <div className="mb-8 rounded-xl border border-red-900/50 bg-red-950/20 p-5">
-        <p className="text-sm uppercase tracking-[0.2em] text-red-300 mb-2">
-          Limited-Time Pricing Through Friday 5/29
+      <div className="mb-8 rounded-xl border border-blue-900/50 bg-blue-950/20 p-5">
+        <p className="text-sm uppercase tracking-[0.2em] text-blue-300 mb-2">
+          Listed Price
         </p>
 
-        <p className="text-3xl font-bold text-white">$849</p>
+        <p className="text-3xl font-bold text-white">$899</p>
 
         <p className="text-gray-400 text-sm mt-2">
           NZXT H5 Flow RGB build with Ryzen 7 performance, 32GB RAM, 2TB NVMe storage,
@@ -28,60 +28,21 @@ export default function System002() {
 
       <div className="mb-10">
         <img
-          src="/images/SYS002SHOPBG-1.PNG.png"
+          src="/images/SYS002SHOPBG-1.PNG"
           alt="System #002 featured workshop hero image"
-          className="rounded-xl w-full object-cover aspect-[16/9] border border-gray-800 shadow-[0_0_60px_rgba(239,68,68,0.16)]"
+          className="rounded-xl w-full object-cover aspect-[16/9] border border-gray-800 shadow-[0_0_60px_rgba(59,130,246,0.16)]"
         />
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 mb-10">
-        <img
-          src="/images/SYS002WBG-2.PNG.png"
-          alt="System #002 white background product photo"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/SYS002WBG-1.PNG.png"
-          alt="System #002 alternate white background product photo"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/SYS002TECHBG-1.PNG.png"
-          alt="System #002 neon tech background photo"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/SYS002WGAMER-1.PNG.png"
-          alt="System #002 white gamer room background photo"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/system-002-build-3.jpeg"
-          alt="System #002 NZXT case with front airflow fans"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/system-002-build-1.jpeg"
-          alt="System #002 ASUS TUF motherboard with Ryzen 7 and Corsair memory"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/system-002-build-2.jpeg"
-          alt="System #002 CPU cooler test fit"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
-
-        <img
-          src="/images/system-002-build-4.jpeg"
-          alt="System #002 motherboard detail shot"
-          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
-        />
+        <img src="/images/SYS002WBG-2.PNG" alt="System #002 white background product photo" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/SYS002WBG-1.PNG" alt="System #002 alternate white background product photo" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/SYS002TECHBG-1.PNG" alt="System #002 neon tech background photo" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/SYS002WGAMER-1.PNG" alt="System #002 white gamer room background photo" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/system-002-build-3.jpeg" alt="System #002 NZXT case with front airflow fans" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/system-002-build-1.jpeg" alt="System #002 ASUS TUF motherboard with Ryzen 7 and Corsair memory" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/system-002-build-2.jpeg" alt="System #002 CPU cooler test fit" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
+        <img src="/images/system-002-build-4.jpeg" alt="System #002 motherboard detail shot" className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800" />
       </div>
 
       <section className="grid gap-8 md:grid-cols-2">
@@ -114,21 +75,18 @@ export default function System002() {
             build practical, serviceable, and upgrade-ready.
           </p>
 
-         <p className="mt-4 text-sm text-blue-300 leading-6">
-           Optional GPU upgrade available. We actively source graphics cards through
-           various retailers to maximize performance per dollar.
+          <p className="mt-4 text-sm text-blue-300 leading-6">
+            Optional GPU upgrade available. We actively source great-value
+            graphics cards through Marketplace, open-box, and retail deals to
+            maximize performance per dollar.
           </p>
 
           <div className="mt-6 border-t border-gray-800 pt-5">
-            <p className="text-sm uppercase tracking-[0.2em] text-red-300">
-              Memorial Day Sale Price
+            <p className="text-sm uppercase tracking-[0.2em] text-blue-300">
+              Listed Price
             </p>
 
-            <p className="text-3xl font-bold mt-2">$849</p>
-
-            <p className="text-gray-500 text-sm mt-2">
-              Sale pricing available through Friday 5/29.
-            </p>
+            <p className="text-3xl font-bold mt-2">$899</p>
           </div>
         </div>
       </section>
