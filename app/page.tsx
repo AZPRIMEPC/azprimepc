@@ -28,22 +28,11 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="border-b border-red-900/40 bg-gradient-to-r from-red-950/60 via-black to-blue-950/50">
-        <div className="mx-auto max-w-6xl px-6 py-3 text-center">
-          <p className="text-sm md:text-base font-semibold tracking-wide">
-            Memorial Day Sale • System #001 Now $849 • System #002 Listed at $849
-          </p>
-          <p className="text-xs text-gray-400 mt-1">
-            Limited-time pricing through Friday 5/29.
-          </p>
-        </div>
-      </section>
-
       <section id="home" className="mx-auto max-w-6xl px-6 py-20">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <p className="text-xs tracking-[0.35em] text-red-400 mb-4">
-              MEMORIAL DAY SALE
+            <p className="text-xs tracking-[0.35em] text-blue-300 mb-4">
+              CUSTOM PERFORMANCE SYSTEMS
             </p>
 
             <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
@@ -56,7 +45,7 @@ export default function Home() {
 
             <div className="mt-8 flex gap-4">
               <a href="#builds" className="bg-white text-black px-6 py-3 rounded-lg">
-                View Sale Builds
+                View Available Builds
               </a>
 
               <a
@@ -97,14 +86,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">System #001</h3>
 
-            <div className="mt-2 flex items-center gap-3">
-              <p className="text-gray-500 line-through">$1,099</p>
-              <p className="text-red-400 font-semibold text-xl">$849</p>
-            </div>
-
-            <p className="text-xs uppercase tracking-wider text-red-300 mt-2">
-              Memorial Day Sale
-            </p>
+            <p className="text-blue-300 font-semibold text-xl mt-2">$849</p>
 
             <p className="text-gray-500 mt-3 text-sm">
               Clean, compact performance build with optimized airflow and integrated display.
@@ -127,11 +109,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">System #002</h3>
 
-            <p className="text-red-400 font-semibold text-xl mt-2">$849</p>
-
-            <p className="text-xs uppercase tracking-wider text-red-300 mt-2">
-              Memorial Day Sale
-            </p>
+            <p className="text-blue-300 font-semibold text-xl mt-2">$799</p>
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
               <p><span className="text-gray-300">CPU:</span> AMD Ryzen 7 5700G</p>
@@ -174,14 +152,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">27” Dell Monitor</h3>
 
-<div className="mt-1 flex items-center gap-3">
-  <p className="text-gray-500 line-through">$109</p>
-  <p className="text-red-400 font-semibold">$79.99</p>
-</div>
-
-<p className="text-xs uppercase tracking-wider text-red-300 mt-2">
-  Memorial Day Sale
-</p>
+            <p className="text-blue-300 font-semibold mt-1">$79.99</p>
 
             <p className="text-gray-500 mt-3 text-sm">
               Clean condition • Adjustable stand • Warranty through 2026
@@ -206,13 +177,13 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-6">
           {[
             [
-  "Custom PC Builds",
-  <>
-    Purpose-built systems tailored for gaming, productivity, and content creation.
-    <br />
-    Designed for people who notice details.
-  </>
-],
+              "Custom PC Builds",
+              <>
+                Purpose-built systems tailored for gaming, productivity, and content creation.
+                <br />
+                Designed for people who notice details.
+              </>
+            ],
             ["Part Sourcing", "Get help choosing high-value, compatible parts."],
             ["Build-Only Service", "Already have parts? Get a clean professional assembly."],
             ["PC Upgrades", "Upgrade storage, RAM, GPU, cooling, and more."],
@@ -262,7 +233,7 @@ export default function Home() {
 
       <footer className="border-t border-gray-800 py-8 text-sm text-gray-500 text-center space-y-4">
         <div>
-          © 2026 Arizona Prime PC Co., LLC • Custom Performance Systems • Built Different.
+          © 2026 Arizona Prime PC Co., LLC • Custom Performance Systems • Intentional by Design.
         </div>
 
         <div className="flex justify-center gap-6">
