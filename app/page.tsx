@@ -35,7 +35,7 @@ export default function Home() {
               ARIZONA PRIME PC CO.
             </p>
 
-            <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
+            <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
               Intentional by Design.
             </h1>
 
@@ -80,7 +80,7 @@ export default function Home() {
             className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
           >
             <img
-              src="/images/SYS001SHOPBG-1.PNG.PNG"
+              src="/images/Stealth-performance.jpg"
               alt="System 001"
               className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
             />
@@ -102,7 +102,7 @@ export default function Home() {
             className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
           >
             <img
-              src="/images/SYS002SHOPBG-1.PNG.Png"
+              src="/images/SYS002SHOPBG-1.PNG.png"
               alt="System 002"
               className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
             />
