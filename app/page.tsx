@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           <img
-            src="/images/SYS002SHOPBG-1.PNG"
+            src="/images/SYS002SHOPBG-1.PNG.png"
             alt="AZ Prime PC System 002"
             className="rounded-2xl border border-gray-800 shadow-[0_0_60px_rgba(59,130,246,0.18)]"
           />
