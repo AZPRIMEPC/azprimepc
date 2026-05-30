@@ -1,7 +1,6 @@
 export default function StealthPerformance() {
   return (
     <main className="bg-black text-white min-h-screen">
-      {/* HEADER */}
       <div className="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
         <div className="font-semibold tracking-wide">AZPrimePC</div>
         <a href="/#builds" className="text-sm text-gray-400 hover:text-white">
@@ -9,29 +8,21 @@ export default function StealthPerformance() {
         </a>
       </div>
 
-      {/* HERO SECTION */}
       <section className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-center">
         <img
-          src="/images/SYS001SHOPBG-1.PNG.png"
+          src="/images/SYS001SHOPBG-1.PNG"
           alt="System #001 AZ Prime PC workshop hero photo"
           className="rounded-xl w-full border border-gray-800 shadow-[0_0_60px_rgba(168,85,247,0.18)]"
         />
 
         <div>
-          <p className="text-xs uppercase tracking-[0.25em] text-red-400 mb-2">
-            Memorial Day Sale
+          <p className="text-xs uppercase tracking-[0.25em] text-blue-300 mb-2">
+            Available Now
           </p>
 
           <h1 className="text-4xl font-bold mb-4">System #001</h1>
 
-          <div className="mb-4 flex items-center gap-4">
-            <p className="text-xl text-gray-500 line-through">$1,099</p>
-            <p className="text-3xl font-bold text-red-400">$849</p>
-          </div>
-
-          <p className="text-xs uppercase tracking-wider text-red-300 mb-6">
-            Limited-time pricing through Friday 5/29
-          </p>
+          <p className="text-3xl font-bold text-blue-300 mb-6">$999</p>
 
           <p className="text-gray-400 max-w-xl">
             Compact, efficient, and clean. This build delivers strong 1080p / 1440p gaming performance
@@ -54,81 +45,20 @@ export default function StealthPerformance() {
         </div>
       </section>
 
-      {/* SALE CALLOUT */}
-      <section className="max-w-6xl mx-auto px-6 pb-12">
-        <div className="rounded-xl border border-red-900/50 bg-red-950/20 p-5">
-          <p className="text-sm uppercase tracking-[0.2em] text-red-300 mb-2">
-            Memorial Day Sale
-          </p>
-
-          <p className="text-3xl font-bold text-white">$849</p>
-
-          <p className="text-gray-400 text-sm mt-2">
-            Discounted from $1,099 through Friday 5/29.
-          </p>
-        </div>
-      </section>
-
-      {/* IMAGE GALLERY */}
       <section className="max-w-6xl mx-auto px-6 pb-16">
         <div className="grid md:grid-cols-2 gap-6">
-          <img
-            src="/images/SYS001WBG-1.PNG.png"
-            alt="System #001 white background product photo"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/SYS001WBG-2.PNG.png"
-            alt="System #001 alternate white background product photo"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/SYS001SHOPBG-1.PNG.png"
-            alt="System #001 workshop product photo"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/stealth-performance.jpg"
-            alt="Stealth Performance original hero"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/stealth-performance-2.png"
-            alt="Stealth Performance Display"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/stealth-performance-3.jpg"
-            alt="Stealth Performance Interior"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/IMG_0215.jpeg"
-            alt="AZP #001 additional view"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/IMG_0216.jpeg"
-            alt="AZP #001 additional view"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/IMG_0219.jpeg"
-            alt="AZP #001 additional view"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+          <img src="/images/SYS001WBG-1.PNG" alt="System #001 white background product photo" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/SYS001WBG-2.PNG" alt="System #001 alternate white background product photo" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/SYS001SHOPBG-1.PNG" alt="System #001 workshop product photo" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/stealth-performance.jpg" alt="Stealth Performance original hero" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/stealth-performance-2.png" alt="Stealth Performance Display" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/stealth-performance-3.jpg" alt="Stealth Performance Interior" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/IMG_0215.jpeg" alt="AZP #001 additional view" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/IMG_0216.jpeg" alt="AZP #001 additional view" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
+          <img src="/images/IMG_0219.jpeg" alt="AZP #001 additional view" className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800" />
         </div>
       </section>
 
-      {/* SPECS */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <h2 className="text-2xl font-semibold mb-6">Build Specifications</h2>
 
@@ -151,7 +81,6 @@ export default function StealthPerformance() {
         </div>
       </section>
 
-      {/* FOOTER */}
       <footer className="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
         © 2026 AZPrimePC. Built Different.
       </footer>
