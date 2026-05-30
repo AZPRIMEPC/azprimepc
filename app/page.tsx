@@ -1,230 +1,148 @@
-import Link from "next/link";
-import ContactForm from "./ContactForm";
-
 export default function Home() {
+  const builds = [
+    {
+      title: "System #001",
+      price: "$849",
+      desc: "Clean, ready-to-go gaming system with reduced pricing available now.",
+      href: "/builds/system-001",
+    },
+    {
+      title: "System #002",
+      price: "$849",
+      desc: "NZXT H5 Flow RGB build with Ryzen 7 performance, 32GB RAM, 2TB NVMe storage, and upgrade-ready design.",
+      href: "/builds/system-002",
+    },
+  ];
+
+  const services = [
+    [
+      "Custom PC Builds",
+      "Purpose-built systems tailored for gaming, productivity, and content creation. Designed for people who notice details.",
+    ],
+    ["Part Sourcing", "Get help choosing high-value, compatible parts."],
+    ["Build-Only Service", "Already have parts? Get a clean professional assembly."],
+    ["PC Upgrades", "Upgrade storage, RAM, GPU, cooling, and more."],
+  ];
+
   return (
-    <main className="bg-black text-white">
-      <header className="sticky top-0 z-50 border-b border-blue-900/40 bg-black/70 backdrop-blur-xl shadow-[0_0_30px_rgba(59,130,246,0.12)]">
-        <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="font-bold tracking-wide text-white hover:text-blue-300 transition">
-            <span className="text-blue-300">AZ</span>PrimePC
-          </Link>
+    <main>
+      <section className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+        <div>
+          <p className="mb-3 text-xs uppercase tracking-[0.35em] text-red-400">
+            Current Reduced Pricing
+          </p>
 
-          <nav className="hidden md:flex items-center gap-8 text-sm text-gray-400">
-            <a href="#home" className="hover:text-white transition">Home</a>
-            <a href="#builds" className="hover:text-white transition">Builds</a>
-            <Link href="/available" className="hover:text-white transition">Available</Link>
-            <a href="#services" className="hover:text-white transition">Services</a>
-            <a href="#why" className="hover:text-white transition">Why Us</a>
-            <a href="#contact" className="hover:text-white transition">Contact</a>
-          </nav>
+          <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl">
+            Intentional by Design.
+          </h1>
 
-          <a
-            href="https://buy.stripe.com/cNi7sN3UWc7A3GQ7eV3Ru01"
-            className="hidden sm:inline-flex rounded-full bg-white px-4 py-2 text-sm font-medium text-black hover:bg-blue-300 transition"
-          >
-            Start a Build
-          </a>
-        </div>
-      </header>
+          <p className="mb-8 max-w-xl text-gray-400">
+            Clean layouts, optimized airflow, carefully selected parts, and custom
+            touches built into every system. Current pricing is reduced while
+            available builds are in stock.
+          </p>
 
-      <section id="home" className="mx-auto max-w-6xl px-6 py-20">
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div>
-            <p className="text-xs tracking-[0.35em] text-gray-500 mb-4">
-              ARIZONA PRIME PC CO.
-            </p>
+          <div className="flex flex-wrap gap-4">
+            <a
+              href="#available"
+              className="rounded-lg bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-gray-200"
+            >
+              View Available Builds
+            </a>
 
-            <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-              Intentional by Design.
-            </h1>
-
-            <p className="mt-6 text-gray-400 max-w-xl">
-              Purpose-built systems tailored for gaming, productivity, and content creation.
-              Designed for people who notice details.
-            </p>
-
-            <div className="mt-8 flex gap-4">
-              <a href="#builds" className="bg-white text-black px-6 py-3 rounded-lg">
-                View Builds
-              </a>
-
-              <a
-                href="https://buy.stripe.com/cNi7sN3UWc7A3GQ7eV3Ru01"
-                target="_blank"
-                className="border border-gray-700 px-6 py-3 rounded-lg hover:bg-white hover:text-black"
-              >
-                Start Your Build
-              </a>
-            </div>
+            <a
+              href="/contact"
+              className="rounded-lg border border-gray-700 px-6 py-3 text-sm font-medium text-white transition hover:border-white"
+            >
+              Start Your Build
+            </a>
           </div>
+        </div>
 
+        <div>
           <img
             src="/images/SYS002SHOPBG-1.PNG.png"
-            alt="AZ Prime PC System 002"
-            className="rounded-2xl border border-gray-800 shadow-[0_0_60px_rgba(59,130,246,0.18)]"
+            alt="AZPrimePC custom PC build in workshop setting"
+            className="aspect-[4/5] w-full rounded-xl border border-gray-800 object-cover shadow-[0_0_70px_rgba(239,68,68,0.14)]"
           />
         </div>
       </section>
 
-      <section id="builds" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
-        <p className="text-xs uppercase tracking-[0.25em] text-gray-500 mb-2">
-          Featured Builds
+      <section
+        id="available"
+        className="mx-auto max-w-6xl border-t border-gray-800 px-6 py-20"
+      >
+        <p className="mb-2 text-xs uppercase tracking-[0.25em] text-red-400">
+          Available Builds
         </p>
 
-        <h2 className="text-3xl font-bold mb-10">Available Now</h2>
+        <h2 className="mb-10 text-3xl font-semibold">
+          Reduced pricing. Ready systems.
+        </h2>
 
-        <div className="grid gap-8 md:grid-cols-3">
-          <Link
-            href="/builds/stealth-performance"
-            className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
-          >
-            <img
-              src="/images/Stealth-performance.jpg"
-              alt="System 001"
-              className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-            />
+        <div className="grid gap-6 md:grid-cols-2">
+          {builds.map((build) => (
+            <a
+              key={build.title}
+              href={build.href}
+              className="rounded-xl border border-gray-800 p-6 transition hover:border-white"
+            >
+              <div className="mb-4 flex items-start justify-between gap-4">
+                <h3 className="text-xl font-semibold">{build.title}</h3>
+                <p className="text-2xl font-bold text-white">{build.price}</p>
+              </div>
 
-            <h3 className="text-lg font-semibold">System #001</h3>
-            <p className="text-blue-300 font-semibold text-xl mt-2">$999</p>
+              <p className="text-sm leading-6 text-gray-400">{build.desc}</p>
 
-            <p className="text-gray-500 mt-3 text-sm">
-              Compact performance build with optimized airflow, dedicated graphics, and integrated display.
-            </p>
-
-            <span className="inline-block mt-4 text-sm underline">
-              View Build →
-            </span>
-          </Link>
-
-          <Link
-            href="/builds/system-002"
-            className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
-          >
-            <img
-              src="/images/SYS002SHOPBG-1.PNG.png"
-              alt="System 002"
-              className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-            />
-
-            <h3 className="text-lg font-semibold">System #002</h3>
-            <p className="text-blue-300 font-semibold text-xl mt-2">$899</p>
-
-            <div className="mt-4 text-sm text-gray-400 space-y-1">
-              <p><span className="text-gray-300">CPU:</span> AMD Ryzen 7 5700G</p>
-              <p><span className="text-gray-300">Motherboard:</span> ASUS TUF Gaming B550-PLUS WiFi II</p>
-              <p><span className="text-gray-300">Memory:</span> 32GB Corsair Vengeance LPX DDR4</p>
-              <p><span className="text-gray-300">Storage:</span> 2TB total WD Blue NVMe SSD storage</p>
-              <p><span className="text-gray-300">Cooling:</span> Thermalright Phantom Spirit 120 Digital EVO</p>
-            </div>
-
-            <p className="text-gray-500 mt-4 text-sm">
-              High-airflow NZXT H5 Flow RGB build with synchronized NZXT lighting,
-              clean cable management, and a liquid cooling upgrade option.
-            </p>
-
-            <span className="inline-block mt-4 text-sm underline">
-              View Build →
-            </span>
-          </Link>
-
-          <div className="border border-gray-800 rounded-xl p-6 opacity-40">
-            <h3 className="text-lg font-semibold">System #003</h3>
-            <p className="text-gray-500 mt-2 text-sm">Coming soon</p>
-          </div>
+              <p className="mt-5 text-sm text-blue-300">View build details →</p>
+            </a>
+          ))}
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-20">
-        <h2 className="text-xl font-semibold mb-6">Also Available</h2>
+      <section
+        id="services"
+        className="mx-auto max-w-6xl border-t border-gray-800 px-6 py-20"
+      >
+        <p className="mb-2 text-xs uppercase tracking-[0.25em] text-gray-500">
+          Services
+        </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          <a
-            href="/available"
-            className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
-          >
-            <img
-              src="/images/dell_monitor_hero.png"
-              alt="Dell 27 Monitor"
-              className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-            />
-
-            <h3 className="text-lg font-semibold">27” Dell Monitor</h3>
-            <p className="text-blue-300 font-semibold mt-1">$79.99</p>
-
-            <p className="text-gray-500 mt-3 text-sm">
-              Clean condition • Adjustable stand • Warranty through 2026
-            </p>
-
-            <span className="inline-block mt-4 text-sm underline">
-              View →
-            </span>
-          </a>
-        </div>
-      </section>
-
-      <section id="services" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
-        <p className="text-xs tracking-widest text-gray-500 mb-2">SERVICES</p>
-
-        <h2 className="text-3xl font-semibold mb-10">
+        <h2 className="mb-10 text-3xl font-semibold">
           What AZPrimePC offers.
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {[
-            ["Custom PC Builds", "Purpose-built systems tailored for gaming, productivity, and content creation."],
-            ["Part Sourcing", "Get help choosing high-value, compatible parts."],
-            ["Build-Only Service", "Already have parts? Get a clean professional assembly."],
-            ["PC Upgrades", "Upgrade storage, RAM, GPU, cooling, and more."],
-          ].map(([title, desc], i) => (
-            <div key={i} className="border border-gray-800 rounded-xl p-6 hover:border-white transition">
+        <div className="grid gap-6 md:grid-cols-2">
+          {services.map(([title, desc]) => (
+            <div
+              key={title}
+              className="rounded-xl border border-gray-800 p-6 transition hover:border-white"
+            >
               <h3 className="font-semibold">{title}</h3>
-              <p className="text-gray-500 mt-2">{desc}</p>
+              <p className="mt-2 text-gray-500">{desc}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section id="why" className="mx-auto max-w-6xl px-6 py-20 border-t border-gray-800">
-        <p className="text-xs tracking-widest text-gray-500 mb-2">
-          WHY AZPRIMEPC
+      <section
+        id="why"
+        className="mx-auto max-w-6xl border-t border-gray-800 px-6 py-20"
+      >
+        <p className="mb-2 text-xs uppercase tracking-[0.25em] text-gray-500">
+          Why AZPrimePC
         </p>
 
-        <h2 className="text-3xl font-semibold mb-10">
-          Built to stand out for the right reasons.
+        <h2 className="mb-6 text-3xl font-semibold">
+          More than a parts list.
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            ["Clean Builds", "Cable management and layout that looks as good as it performs."],
-            ["Performance Focused", "Parts selected for real-world value, not hype."],
-            ["Built for You", "Every system tailored to your needs and budget."],
-          ].map(([title, desc], i) => (
-            <div key={i} className="border border-gray-800 rounded-xl p-6 hover:border-white transition">
-              <h3 className="font-semibold">{title}</h3>
-              <p className="text-gray-500 mt-2">{desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section id="contact" className="mx-auto max-w-4xl px-6 py-20 border-t border-gray-800">
-        <h2 className="text-3xl font-semibold text-center">
-          Start the conversation.
-        </h2>
-
-        <p className="text-gray-400 text-center mt-4">
-          Tell us what you need and we’ll help design the right system.
+        <p className="max-w-3xl leading-7 text-gray-400">
+          Every build is assembled with airflow, cable management, component
+          layout, serviceability, and presentation in mind. The longer you look,
+          the more you see.
         </p>
-
-        <ContactForm />
       </section>
-
-      <footer className="border-t border-gray-800 py-8 text-sm text-gray-500 text-center space-y-4">
-        <div>
-          © 2026 Arizona Prime PC Co., LLC • Custom Performance Systems • Built Different.
-        </div>
-      </footer>
     </main>
   );
 }
