@@ -86,7 +86,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">System #001</h3>
 
-            <p className="text-blue-300 font-semibold text-xl mt-2">$849</p>
+            <p className="text-blue-300 font-semibold text-xl mt-2">$750</p>
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
               <p><span className="text-gray-300">CPU:</span> AMD Ryzen 5 5500</p>
@@ -119,7 +119,7 @@ export default function Home() {
 
             <h3 className="text-lg font-semibold">System #002</h3>
 
-            <p className="text-blue-300 font-semibold text-xl mt-2">$799</p>
+            <p className="text-blue-300 font-semibold text-xl mt-2">$700</p>
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
               <p><span className="text-gray-300">CPU:</span> AMD Ryzen 7 5700G</p>
