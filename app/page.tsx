@@ -3,13 +3,13 @@ export default function Home() {
     {
       title: "System #001",
       price: "$849",
-      image: "/images/system-001-hero.jpeg",
+      image: "stealth-performance.jpg",
       desc: "Clean, ready-to-go gaming system with reduced pricing available now.",
       href: "/builds/system-001",
     },
     {
       title: "System #002",
-      price: "$800",
+      price: "$799",
       image: "/images/SYS002SHOPBG-1.PNG.png",
       desc: "NZXT H5 Flow RGB build with Ryzen 7 performance, 32GB RAM, 2TB NVMe storage, and upgrade-ready design.",
       href: "/builds/system-002",
