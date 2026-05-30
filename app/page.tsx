@@ -90,9 +90,10 @@ export default function Home() {
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
               <p><span className="text-gray-300">CPU:</span> AMD Ryzen 5 5500</p>
+              <p><span className="text-gray-300">Motherboard</span> Gigabyte A520I AC (Mini-ITX, WiFi)</p>
               <p><span className="text-gray-300">Graphics:</span> XFX Radeon RX 6600 XT</p>
               <p><span className="text-gray-300">Memory:</span> 32GB DDR4 RAM</p>
-              <p><span className="text-gray-300">Storage:</span> NVMe SSD storage</p>
+              <p><span className="text-gray-300">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
               <p><span className="text-gray-300">Display:</span> Integrated system monitoring screen</p>
             </div>
 
