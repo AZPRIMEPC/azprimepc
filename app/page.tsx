@@ -36,12 +36,12 @@ export default function Home() {
             </p>
 
             <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
-              Built Different.
+              Intentional by Design.
             </h1>
 
             <p className="mt-6 text-gray-400 max-w-xl">
-              Custom PCs built with intention. Clean layouts, optimized airflow,
-              and performance-focused parts — no wasted components.
+              Purpose-built systems tailored for gaming, productivity, and content creation.
+              Designed for people who notice details.
             </p>
 
             <div className="mt-8 flex gap-4">
@@ -80,7 +80,7 @@ export default function Home() {
             className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
           >
             <img
-              src="/images/SYS001SHOPBG-1.PNG"
+              src="/images/SYS001SHOPBG-1.PNG.PNG"
               alt="System 001"
               className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
             />
@@ -102,7 +102,7 @@ export default function Home() {
             className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
           >
             <img
-              src="/images/SYS002SHOPBG-1.PNG"
+              src="/images/SYS002SHOPBG-1.PNG.Png"
               alt="System 002"
               className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
             />
