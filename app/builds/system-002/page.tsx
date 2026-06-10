@@ -12,7 +12,7 @@ export default function System002() {
           Current Price
         </p>
 
-        <p className="text-3xl font-bold text-white">$700</p>
+        <p className="text-3xl font-bold text-white">$600</p>
 
         <p className="text-gray-400 text-sm mt-2">
           NZXT H5 Flow RGB build with Ryzen 7 performance, 32GB RAM, 2TB NVMe storage,
@@ -124,7 +124,7 @@ export default function System002() {
               Current Price
             </p>
 
-            <p className="text-3xl font-bold mt-2">$700</p>
+            <p className="text-3xl font-bold mt-2">$600</p>
 
             <p className="text-gray-500 text-sm mt-2">
               Available now as a ready-to-go AZPrimePC build.
