@@ -24,7 +24,7 @@ export default function StealthPerformance() {
 
           <h1 className="text-4xl font-bold mb-4">System #001</h1>
 
-          <p className="text-3xl font-bold text-blue-300 mb-6">$750</p>
+          <p className="text-3xl font-bold text-blue-300 mb-6">$700</p>
 
           <p className="text-gray-400 max-w-xl">
             Compact, efficient, and clean. This build delivers strong 1080p / 1440p gaming performance
@@ -54,7 +54,7 @@ export default function StealthPerformance() {
             Current Price
           </p>
 
-          <p className="text-3xl font-bold text-white">$750</p>
+          <p className="text-3xl font-bold text-white">$700</p>
 
           <p className="text-gray-400 text-sm mt-2">
             Available now as a ready-to-go AZPrimePC build.
