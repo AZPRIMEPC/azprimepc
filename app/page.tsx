@@ -1,5 +1,4 @@
-import
- Link from "next/link";
+import Link from "next/link";
 import ContactForm from "./ContactForm";
 
 export default function Home() {
