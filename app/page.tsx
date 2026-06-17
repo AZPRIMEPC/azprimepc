@@ -1,7 +1,10 @@
+```jsx
 import Link from "next/link";
 import ContactForm from "./ContactForm";
 
 export default function Home() {
+  const system002Sold = true;
+
   return (
     <main className="bg-black text-white">
       <header className="sticky top-0 z-50 border-b border-blue-900/40 bg-black/70 backdrop-blur-xl shadow-[0_0_30px_rgba(59,130,246,0.12)]">
@@ -45,12 +48,13 @@ export default function Home() {
 
             <div className="mt-8 flex gap-4">
               <a href="#builds" className="bg-white text-black px-6 py-3 rounded-lg">
-                View Available Builds
+                View Builds
               </a>
 
               <a
                 href="https://buy.stripe.com/cNi7sN3UWc7A3GQ7eV3Ru01"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="border border-gray-700 px-6 py-3 rounded-lg hover:bg-white hover:text-black"
               >
                 Start Your Build
@@ -58,11 +62,21 @@ export default function Home() {
             </div>
           </div>
 
-          <img
-            src="/images/SYS002SHOPBG-OG-1.PNG.jpg"
-            alt="AZ Prime PC System 002"
-            className="rounded-2xl border border-gray-800 shadow-[0_0_60px_rgba(239,68,68,0.18)]"
-          />
+          <div className="relative">
+            <img
+              src="/images/SYS002SHOPBG-OG-1.PNG.jpg"
+              alt="AZ Prime PC System 002"
+              className="rounded-2xl border border-gray-800 shadow-[0_0_60px_rgba(239,68,68,0.18)]"
+            />
+
+            {system002Sold && (
+              <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-black/45">
+                <span className="rotate-[-14deg] border-4 border-white px-10 py-3 text-5xl font-black tracking-[0.2em] text-white shadow-lg">
+                  SOLD
+                </span>
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
@@ -71,7 +85,7 @@ export default function Home() {
           Featured Builds
         </p>
 
-        <h2 className="text-3xl font-bold mb-10">Available Now</h2>
+        <h2 className="text-3xl font-bold mb-10">Available & Recently Sold</h2>
 
         <div className="grid gap-8 md:grid-cols-3">
           <Link
@@ -90,7 +104,7 @@ export default function Home() {
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
               <p><span className="text-gray-300">CPU:</span> AMD Ryzen 5 5500</p>
-              <p><span className="text-gray-300">Motherboard</span> Gigabyte A520I AC (Mini-ITX, WiFi)</p>
+              <p><span className="text-gray-300">Motherboard:</span> Gigabyte A520I AC Mini-ITX WiFi</p>
               <p><span className="text-gray-300">Graphics:</span> XFX Radeon RX 6600 XT</p>
               <p><span className="text-gray-300">Memory:</span> 32GB DDR4 RAM</p>
               <p><span className="text-gray-300">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
@@ -109,17 +123,33 @@ export default function Home() {
 
           <Link
             href="/builds/system-002"
-            className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
+            className="relative overflow-hidden border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
           >
-            <img
-              src="/images/SYS002SHOPBG-OG-1.PNG.jpg"
-              alt="System 002"
-              className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-            />
+            <div className="relative">
+              <img
+                src="/images/SYS002SHOPBG-OG-1.PNG.jpg"
+                alt="System 002"
+                className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
+              />
 
-            <h3 className="text-lg font-semibold">System #002</h3>
+              {system002Sold && (
+                <div className="absolute inset-0 mb-4 flex items-center justify-center rounded-lg bg-black/50">
+                  <span className="rotate-[-14deg] border-4 border-white px-8 py-2 text-4xl font-black tracking-[0.2em] text-white">
+                    SOLD
+                  </span>
+                </div>
+              )}
+            </div>
 
-            <p className="text-blue-300 font-semibold text-xl mt-2">$600</p>
+            <div className="flex items-center justify-between gap-3">
+              <h3 className="text-lg font-semibold">System #002</h3>
+
+              <span className="rounded-full border border-red-500/60 bg-red-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-red-300">
+                Sold
+              </span>
+            </div>
+
+            <p className="text-gray-500 font-semibold text-xl mt-2">Sold</p>
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
               <p><span className="text-gray-300">CPU:</span> AMD Ryzen 7 5700G</p>
@@ -130,12 +160,12 @@ export default function Home() {
             </div>
 
             <p className="text-gray-500 mt-4 text-sm">
-              High-airflow NZXT H5 Flow RGB build with synchronized NZXT lighting,
-              clean cable management, and a liquid cooling upgrade option.
+              Recently sold NZXT H5 Flow RGB build with synchronized NZXT lighting,
+              clean cable management, and high-airflow cooling.
             </p>
 
             <span className="inline-block mt-4 text-sm underline">
-              View Build →
+              View Sold Build →
             </span>
           </Link>
 
@@ -275,3 +305,4 @@ export default function Home() {
     </main>
   );
 }
+```
