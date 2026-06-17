@@ -1,4 +1,3 @@
-```jsx
 export default function System002() {
   const isSold = true;
 
@@ -125,4 +124,4 @@ export default function System002() {
     </main>
   );
 }
-```
+
