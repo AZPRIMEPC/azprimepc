@@ -1,15 +1,14 @@
-import Link from "next/link";import ContactForm from "./ContactForm";
+import Link from "next/link";
+import ContactForm from "./ContactForm";
 
-export default function Home() {return (AZPrimePC
-
-      <nav className="hidden md:flex items-center gap-8 text-sm text-gray-400">
-        <a href="#home" className="hover:text-white transition">Home</a>
-        <a href="#builds" className="hover:text-white transition">Builds</a>
-        <Link href="/available" className="hover:text-white transition">Available</Link>
-        <a href="#services" className="hover:text-white transition">Services</a>
-        <a href="#why" className="hover:text-white transition">Why Us</a>
-        <a href="#contact" className="hover:text-white transition">Contact</a>
-      </nav>
+export default function Home() {
+  return (
+    <main className="bg-black text-white">
+      <header className="sticky top-0 z-50 border-b border-blue-900/40 bg-black/70 backdrop-blur-xl shadow-[0_0_30px_rgba(59,130,246,0.12)]">
+        <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+          <Link href="/" className="font-bold tracking-wide text-white hover:text-blue-300 transition">
+            <span className="text-blue-300">AZ</span>PrimePC
+          </Link>
 
       <a
         href="https://buy.stripe.com/cNi7sN3UWc7A3GQ7eV3Ru01"
