@@ -1,153 +1,143 @@
-export default function StealthPerformance() {
+export default function System002() {
   return (
-    <main className="bg-black text-white min-h-screen">
-      {/* HEADER */}
-      <div className="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
-        <div className="font-semibold tracking-wide">AZPrimePC</div>
-        <a href="/#builds" className="text-sm text-gray-400 hover:text-white">
-          ← Back to Builds
-        </a>
+    <main className="mx-auto max-w-5xl px-6 py-20">
+      <p className="text-xs uppercase tracking-[0.25em] text-red-300 mb-2">
+        Recently Sold
+      </p>
+
+      <h1 className="text-4xl font-bold mb-4">System #002</h1>
+
+      <div className="mb-8 rounded-xl border border-red-900/50 bg-red-950/20 p-5">
+        <p className="text-sm uppercase tracking-[0.2em] text-red-300 mb-2">
+          Build Status
+        </p>
+
+        <p className="text-3xl font-bold text-white">Sold</p>
+
+        <p className="text-gray-400 text-sm mt-2">
+          NZXT H5 Flow RGB build with Ryzen 7 performance, 32GB RAM, 2TB NVMe storage,
+          synchronized NZXT RGB lighting, and a liquid cooling upgrade option.
+        </p>
       </div>
 
-      {/* HERO SECTION */}
-      <section className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-center">
+      <p className="text-gray-400 max-w-2xl mb-10">
+        System #002 was a clean, performance-focused build assembled with precision airflow,
+        organized cable management, synchronized NZXT aRGB lighting, and an upgrade-ready
+        design built to evolve with the user.
+      </p>
+
+      <div className="relative mb-10">
         <img
-          src="/images/SYS001SHOPBG-1.PNG.png"
-          alt="System #001 AZ Prime PC workshop hero photo"
-          className="rounded-xl w-full border border-gray-800 shadow-[0_0_60px_rgba(168,85,247,0.18)]"
+          src="/images/SYS002SHOPBG-1.PNG.png"
+          alt="System #002 featured workshop hero image"
+          className="rounded-xl w-full object-cover aspect-[16/9] border border-gray-800 shadow-[0_0_60px_rgba(239,68,68,0.16)]"
         />
 
-        <div>
-          <p className="text-xs uppercase tracking-[0.25em] text-blue-300 mb-2">
-            Available Now
-          </p>
-
-          <h1 className="text-4xl font-bold mb-4">System #001</h1>
-
-          <p className="text-3xl font-bold text-blue-300 mb-6">$700</p>
-
-          <p className="text-gray-400 max-w-xl">
-            Compact, efficient, and clean. This build delivers strong 1080p / 1440p gaming performance
-            with excellent thermals and a minimal footprint — perfect for desks that need power without bulk.
-          </p>
-
-          <p className="text-gray-300 mt-4 max-w-xl">
-            Includes an 8.8&quot; smart display showing real-time system stats for a clean,
-            high-end aesthetic.
-            <br />
-            Windows 11 Pro installed with lifetime activation key.
-          </p>
-
-          <a
-            href="/#contact"
-            className="inline-block mt-6 bg-white text-black px-6 py-3 rounded-full text-sm hover:opacity-80 transition"
-          >
-            Request This Build
-          </a>
+        <div className="absolute inset-0 flex items-center justify-center rounded-xl bg-black/50">
+          <span className="rotate-[-14deg] border-4 border-white px-12 py-4 text-5xl md:text-7xl font-black tracking-[0.2em] text-white">
+            SOLD
+          </span>
         </div>
-      </section>
+      </div>
 
-      {/* PRICE CALLOUT */}
-      <section className="max-w-6xl mx-auto px-6 pb-12">
-        <div className="rounded-xl border border-blue-900/50 bg-blue-950/20 p-5">
-          <p className="text-sm uppercase tracking-[0.2em] text-blue-300 mb-2">
-            Current Price
-          </p>
+      <div className="grid gap-4 md:grid-cols-2 mb-10">
+        <img
+          src="/images/SYS002WBG-2.PNG.png"
+          alt="System #002 white background product photo"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-          <p className="text-3xl font-bold text-white">$700</p>
+        <img
+          src="/images/SYS002WBG-1.PNG.png"
+          alt="System #002 alternate white background product photo"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-          <p className="text-gray-400 text-sm mt-2">
-            Available now as a ready-to-go AZPrimePC build.
-          </p>
-        </div>
-      </section>
+        <img
+          src="/images/SYS002TECHBG-1.PNG.png"
+          alt="System #002 neon tech background photo"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-      {/* IMAGE GALLERY */}
-      <section className="max-w-6xl mx-auto px-6 pb-16">
-        <div className="grid md:grid-cols-2 gap-6">
-          <img
-            src="/images/SYS001WBG-1.PNG.png"
-            alt="System #001 white background product photo"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+        <img
+          src="/images/SYS002WGAMER-1.PNG.png"
+          alt="System #002 white gamer room background photo"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-          <img
-            src="/images/SYS001WBG-2.PNG.png"
-            alt="System #001 alternate white background product photo"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+        <img
+          src="/images/system-002-build-3.jpeg"
+          alt="System #002 NZXT case with front airflow fans"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-          <img
-            src="/images/SYS001SHOPBG-1.PNG.png"
-            alt="System #001 workshop product photo"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+        <img
+          src="/images/system-002-build-1.jpeg"
+          alt="System #002 ASUS TUF motherboard with Ryzen 7 and Corsair memory"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-          <img
-            src="/images/stealth-performance.jpg"
-            alt="Stealth Performance original hero"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+        <img
+          src="/images/system-002-build-2.jpeg"
+          alt="System #002 CPU cooler test fit"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
 
-          <img
-            src="/images/stealth-performance-2.png"
-            alt="Stealth Performance Display"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+        <img
+          src="/images/system-002-build-4.jpeg"
+          alt="System #002 motherboard detail shot"
+          className="rounded-lg w-full object-cover aspect-[4/3] border border-gray-800"
+        />
+      </div>
 
-          <img
-            src="/images/stealth-performance-3.jpg"
-            alt="Stealth Performance Interior"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
+      <section className="grid gap-8 md:grid-cols-2">
+        <div className="border border-gray-800 rounded-xl p-6">
+          <h2 className="text-xl font-semibold mb-4">Core Specs</h2>
 
-          <img
-            src="/images/IMG_0215.jpeg"
-            alt="AZP #001 additional view"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/IMG_0216.jpeg"
-            alt="AZP #001 additional view"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-
-          <img
-            src="/images/IMG_0219.jpeg"
-            alt="AZP #001 additional view"
-            className="rounded-xl w-full object-cover aspect-[4/3] border border-gray-800"
-          />
-        </div>
-      </section>
-
-      {/* SPECS */}
-      <section className="mx-auto max-w-6xl px-6 pb-20">
-        <h2 className="text-2xl font-semibold mb-6">Build Specifications</h2>
-
-        <div className="grid md:grid-cols-2 gap-6 text-gray-400">
-          <div className="border border-gray-800 rounded-xl p-6">
-            <p><span className="text-white">CPU:</span> AMD Ryzen 5 5500 (6-Core, 12-Thread)</p>
-            <p><span className="text-white">GPU:</span> XFX Radeon RX 6600 XT 8GB</p>
-            <p><span className="text-white">RAM:</span> 32GB Corsair DDR4 (2x16GB)</p>
-            <p><span className="text-white">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
-            <p><span className="text-white">Display:</span> WOWNOVA 8.8&quot; real-time system monitoring display</p>
+          <div className="text-sm text-gray-400 space-y-2">
+            <p><span className="text-gray-300">CPU:</span> AMD Ryzen 7 5700G</p>
+            <p><span className="text-gray-300">Motherboard:</span> ASUS TUF Gaming B550-PLUS WiFi II AMD AM4</p>
+            <p><span className="text-gray-300">Memory:</span> CORSAIR Vengeance LPX DDR4 RAM 32GB (4x8)</p>
+            <p><span className="text-gray-300">Storage:</span> Western Digital WD Blue SN5000 1TB NVMe SSD x2</p>
+            <p><span className="text-gray-300">Power Supply:</span> MSI MAG A850GL PCIE5, fully modular compact gaming 850W</p>
+            <p><span className="text-gray-300">Case:</span> NZXT H5 Flow RGB 2024 Compact ATX Mid-Tower</p>
+            <p><span className="text-gray-300">Fans:</span> NZXT F240 RGB Core 240mm Single-Frame Fan Unit x2</p>
+            <p><span className="text-gray-300">Front Fans:</span> NZXT F360 RGB Core 360mm Single-Frame Fan Unit</p>
+            <p><span className="text-gray-300">RGB Control:</span> NZXT Control Hub digital RGB lighting and PWM fan speed controller</p>
+            <p><span className="text-gray-300">Cooling:</span> Thermalright Phantom Spirit 120 Digital EVO</p>
+            <p><span className="text-gray-300">Status:</span> Sold</p>
           </div>
+        </div>
 
-          <div className="border border-gray-800 rounded-xl p-6">
-            <p><span className="text-white">Motherboard:</span> Gigabyte A520I AC (Mini-ITX, WiFi)</p>
-            <p><span className="text-white">Cooler:</span> Thermalright AXP90 X36 Low Profile</p>
-            <p><span className="text-white">Case:</span> JoyJom Micro ATX</p>
-            <p><span className="text-white">Power Supply:</span> MSI MAG A650BE 650W 80+ Bronze</p>
-            <p><span className="text-white">OS:</span> Windows 11 Pro installed with lifetime activation key</p>
+        <div className="border border-gray-800 rounded-xl p-6">
+          <h2 className="text-xl font-semibold mb-4">Build Direction</h2>
+
+          <p className="text-sm text-gray-400 leading-6">
+            System #002 was built around clean presentation, strong airflow,
+            synchronized NZXT RGB lighting, and premium component visibility.
+            The H5 Flow RGB case, NZXT single-frame fans, and Thermalright
+            digital cooler gave the system a high-end look while keeping the
+            build practical, serviceable, and upgrade-ready.
+          </p>
+
+          <p className="mt-4 text-sm text-blue-300 leading-6">
+            This build has sold, but similar custom systems can be built based on
+            budget, performance goals, preferred case style, and upgrade plans.
+          </p>
+
+          <div className="mt-6 border-t border-gray-800 pt-5">
+            <p className="text-sm uppercase tracking-[0.2em] text-red-300">
+              Build Status
+            </p>
+
+            <p className="text-3xl font-bold mt-2">Sold</p>
+
+            <p className="text-gray-500 text-sm mt-2">
+              Recently completed AZPrimePC build.
+            </p>
           </div>
         </div>
       </section>
-
-      {/* FOOTER */}
-      <footer className="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
-        © 2026 AZPrimePC. Intentional by Design.
-      </footer>
     </main>
   );
-}
+  }
