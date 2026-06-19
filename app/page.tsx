@@ -84,37 +84,82 @@ export default function Home() {
 
         <div className="grid gap-8 md:grid-cols-3">
           <Link
-            href="/builds/stealth-performance"
-            className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
-          >
-            <img
-              src="/images/SYS001SHOPBG-1.PNG.png"
-              alt="System 001"
-              className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
-            />
 
-            <h3 className="text-lg font-semibold">System #001</h3>
+  href="/builds/stealth-performance"
 
-            <p className="text-blue-300 font-semibold text-xl mt-2">$700</p>
+  className="border border-gray-800 rounded-xl p-4 hover:border-white hover:-translate-y-1 transition block"
 
-            <div className="mt-4 text-sm text-gray-400 space-y-1">
-              <p><span className="text-gray-300">CPU:</span> AMD Ryzen 5 5500</p>
-              <p><span className="text-gray-300">Motherboard:</span> Gigabyte A520I AC (Mini-ITX, WiFi)</p>
-              <p><span className="text-gray-300">Graphics:</span> XFX Radeon RX 6600 XT</p>
-              <p><span className="text-gray-300">Memory:</span> 32GB DDR4 RAM</p>
-              <p><span className="text-gray-300">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
-              <p><span className="text-gray-300">Display:</span> Integrated system monitoring screen</p>
-            </div>
+>
 
-            <p className="text-gray-500 mt-4 text-sm">
-              Clean, compact performance build with optimized airflow, dedicated Radeon graphics,
-              and integrated display.
-            </p>
+  <div className="relative">
 
-            <span className="inline-block mt-4 text-sm underline">
-              View Build →
-            </span>
-          </Link>
+    <img
+
+      src="/images/SYS001SHOPBG-1.PNG.png"
+
+      alt="System 001"
+
+      className="rounded-lg mb-4 w-full object-cover aspect-[4/3]"
+
+    />
+
+    <div className="absolute inset-0 mb-4 flex items-center justify-center rounded-lg bg-black/50">
+
+      <span className="rotate-[-14deg] border-4 border-white px-8 py-2 text-4xl font-black tracking-[0.2em] text-white">
+
+        SOLD
+
+      </span>
+
+    </div>
+
+  </div>
+
+  <div className="flex items-center justify-between gap-3">
+
+    <h3 className="text-lg font-semibold">System #001</h3>
+
+    <span className="rounded-full border border-red-500/60 bg-red-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-red-300">
+
+      Sold
+
+    </span>
+
+  </div>
+
+  <p className="text-red-300 font-semibold text-xl mt-2">Sold</p>
+
+  <div className="mt-4 text-sm text-gray-400 space-y-1">
+
+    <p><span className="text-gray-300">CPU:</span> AMD Ryzen 5 5500</p>
+
+    <p><span className="text-gray-300">Motherboard:</span> Gigabyte A520I AC (Mini-ITX, WiFi)</p>
+
+    <p><span className="text-gray-300">Graphics:</span> XFX Radeon RX 6600 XT</p>
+
+    <p><span className="text-gray-300">Memory:</span> 32GB DDR4 RAM</p>
+
+    <p><span className="text-gray-300">Storage:</span> 2TB WD_Black SN7100 NVMe M.2 SSD</p>
+
+    <p><span className="text-gray-300">Display:</span> Integrated system monitoring screen</p>
+
+  </div>
+
+  <p className="text-gray-500 mt-4 text-sm">
+
+    Recently sold compact performance build featuring dedicated Radeon graphics,
+
+    optimized airflow, and integrated system monitoring.
+
+  </p>
+
+  <span className="inline-block mt-4 text-sm underline">
+
+    View Sold Build →
+
+  </span>
+
+</Link>
 
           <Link
             href="/builds/system-002"
